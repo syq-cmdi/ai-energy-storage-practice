@@ -1,0 +1,15 @@
+{
+  "data_kind": "constructed",
+  "window": 5,
+  "split": {
+    "train": ["C01", "C02", "C03", "C04", "C05", "C06"],
+    "validation": ["C07"],
+    "calibration": ["C08"],
+    "test": ["C09", "C10", "C11", "C12"]
+  },
+  "seeds": [17, 29, 43],
+  "candidates": {"ridge": [0.1, 1.0, 10.0], "forest": [3, 6], "window_mlp": [0.1, 1.0]},
+  "target": "next_cycle_soh",
+  "soh_reference": "capacity_ah / 2.0",
+  "interval_quantile": 0.9
+}

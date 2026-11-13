@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "numpy": "2.3.5",
+  "sklearn": "1.6.1",
+  "inputs": {
+    "run.py": "d596a0ed136e5a831dec7eec25ae139b86771feb595dacc62f4dd82bbb61ab6e",
+    "config.json": "4e46148ab28b183c917d4c145356b3d39227661ff144b0cacb29982f74102ec6"
+  },
+  "outputs": {
+    "cycles.csv": "b613e39bde606bb96ba02a3ebd5a8df1e52ae95e14a83ca40726c871457fdd9d",
+    "metrics.json": "45294432153b46ad00b585f44640c5d001158b767be80d01d6ac0e2772d8fc68",
+    "predictions.csv": "1d75c005a788c4b1cb7d5d7caa656177686a98a0057304f64fd0d5ed9b9e9147",
+    "soc.csv": "4b00fc8bc2400a113948296abeb58de00f7f5a4e365eb1c7794615e9d5d888dc"
+  },
+  "distribution_note": "Model binaries are generated locally by run.py; not distributed in this source repository."
+}

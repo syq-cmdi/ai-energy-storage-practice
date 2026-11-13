@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "checks_passed": 53,
+  "checks": [
+    {
+      "check": "1920 cycle records for 12 cells",
+      "passed": true
+    },
+    {
+      "check": "155 targets per cell",
+      "passed": true
+    },
+    {
+      "check": "no future information in windows",
+      "passed": true
+    },
+    {
+      "check": "all split cell sets are disjoint",
+      "passed": true
+    },
+    {
+      "check": "ridge 0 scaler sees training rows only",
+      "passed": true
+    },
+    {
+      "check": "window_mlp 0 scaler sees training rows only",
+      "passed": true
+    },
+    {
+      "check": "window_mlp 1 scaler sees training rows only",
+      "passed": true
+    },
+    {
+      "check": "window_mlp 2 scaler sees training rows only",
+      "passed": true
+    },
+    {
+      "check": "persistence/validation independent MAE",
+      "passed": true
+    },
+    {
+      "check": "persistence/validation independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "persistence/calibration independent MAE",
+      "passed": true
+    },
+    {
+      "check": "persistence/calibration independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "persistence/test independent MAE",
+      "passed": true
+    },
+    {
+      "check": "persistence/test independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "ridge/validation independent MAE",
+      "passed": true
+    },
+    {
+      "check": "ridge/validation independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "ridge/calibration independent MAE",
+      "passed": true
+    },
+    {
+      "check": "ridge/calibration independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "ridge/test independent MAE",
+      "passed": true
+    },
+    {
+      "check": "ridge/test independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "forest/validation independent MAE",
+      "passed": true
+    },
+    {
+      "check": "forest/validation independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "forest/calibration independent MAE",
+      "passed": true
+    },
+    {
+      "check": "forest/calibration independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "forest/test independent MAE",
+      "passed": true
+    },
+    {
+      "check": "forest/test independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "window_mlp/validation independent MAE",
+      "passed": true
+    },
+    {
+      "check": "window_mlp/validation independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "window_mlp/calibration independent MAE",
+      "passed": true
+    },
+    {
+      "check": "window_mlp/calibration independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "window_mlp/test independent MAE",
+      "passed": true
+    },
+    {
+      "check": "window_mlp/test independent RMSE",
+      "passed": true
+    },
+    {
+      "check": "family chosen on validation only",
+      "passed": true
+    },
+    {
+      "check": "ridge hyperparameter chosen using C07",
+      "passed": true
+    },
+    {
+      "check": "forest hyperparameter chosen using C07",
+      "passed": true
+    },
+    {
+      "check": "window_mlp hyperparameter chosen using C07",
+      "passed": true
+    },
+    {
+      "check": "model reload agreement",
+      "passed": true
+    },
+    {
+      "check": "SOC hand calculated endpoint",
+      "passed": true
+    },
+    {
+      "check": "SOC sensor-bias closed form",
+      "passed": true
+    },
+    {
+      "check": "SOC capacity-error closed form",
+      "passed": true
+    },
+    {
+      "check": "SOC initial bias stays constant",
+      "passed": true
+    },
+    {
+      "check": "last future label cannot change any input window",
+      "passed": true
+    },
+    {
+      "check": "future label change reaches the target only",
+      "passed": true
+    },
+    {
+      "check": "interval coverage independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "C09 censoring preserved",
+      "passed": true
+    },
+    {
+      "check": "C10 censoring preserved",
+      "passed": true
+    },
+    {
+      "check": "C11 censoring preserved",
+      "passed": true
+    },
+    {
+      "check": "C12 censoring preserved",
+      "passed": true
+    },
+    {
+      "check": "duplicate cycle rejected",
+      "passed": true
+    },
+    {
+      "check": "nonfinite capacity rejected",
+      "passed": true
+    },
+    {
+      "check": "zero reference capacity rejected",
+      "passed": true
+    },
+    {
+      "check": "cycle discontinuity rejected",
+      "passed": true
+    },
+    {
+      "check": "nonempty output is protected",
+      "passed": true
+    }
+  ],
+  "temporary_directory_cleaned": true
+}

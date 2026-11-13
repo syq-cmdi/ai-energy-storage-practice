@@ -1,0 +1,1 @@
+-r chapters/ch02/requirements.txt
