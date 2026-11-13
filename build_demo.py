@@ -12,7 +12,7 @@ def read_csv(path):
 
 
 def build(results):
-    metrics = json.loads((results / "metrics.json").read_text())
+    metrics = json.loads((results / "metrics.json").read_text(encoding="utf-8"))
     predictions = read_csv(results / "predictions.csv")
     cycles = read_csv(results / "cycles.csv")
     data = {
@@ -59,17 +59,19 @@ def build(results):
         + ";\n"
     )
     (ROOT / "demo/data.js").write_text(payload, encoding="utf-8")
-    html = (ROOT / "demo/index.html").read_text()
+    html = (ROOT / "demo/index.html").read_text(encoding="utf-8")
     for name in ["data.js", "math.js", "app.js"]:
         html = html.replace(
             f'<script src="{name}"></script>',
             "<script>"
-            + (ROOT / "demo" / name).read_text().replace("</script", r"<\/script")
+            + (ROOT / "demo" / name)
+            .read_text(encoding="utf-8")
+            .replace("</script", r"<\/script")
             + "</script>",
         )
     html = html.replace(
         '<link rel="stylesheet" href="style.css">',
-        "<style>" + (ROOT / "demo/style.css").read_text() + "</style>",
+        "<style>" + (ROOT / "demo/style.css").read_text(encoding="utf-8") + "</style>",
     )
     (ROOT / "demo/教学演示.html").write_text(html, encoding="utf-8")
     print(

@@ -58,6 +58,8 @@ def setup(font_path=None):
                 for n in [
                     "Noto Sans CJK SC",
                     "Source Han Sans SC",
+                    # FreeType exposes the first face of Ubuntu's Noto CJK TTC.
+                    "Noto Sans CJK JP",
                     "Microsoft YaHei",
                     "PingFang SC",
                     "Heiti SC",
@@ -218,7 +220,7 @@ def soc_figure(data, out):
 
 
 def comparison_figure(data, out):
-    m = json.loads((data / "metrics.json").read_text())
+    m = json.loads((data / "metrics.json").read_text(encoding="utf-8"))
     families = list(NAMES)
     fig, axes = plt.subplots(2, 2, figsize=(7.6, 4.7), sharex=True)
     fig.subplots_adjust(
@@ -278,7 +280,7 @@ def comparison_figure(data, out):
 
 
 def interval_figure(data, out):
-    m = json.loads((data / "metrics.json").read_text())
+    m = json.loads((data / "metrics.json").read_text(encoding="utf-8"))
     family = m["selected_family"]
     rows = [r for r in read_csv(data / "predictions.csv") if r["cell_id"] == "C09"]
     x = np.array([int(r["target_cycle"]) for r in rows])
