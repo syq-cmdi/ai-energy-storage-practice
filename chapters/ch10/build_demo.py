@@ -25,8 +25,10 @@ def main():
     ).replace("__DATA__", encoded.replace("</", "<\\/"))
     assert "__ENGINE__" not in html and "__DATA__" not in html
     args.out.mkdir(parents=True, exist_ok=True)
-    (args.out / "index.html").write_text(html, encoding="utf-8")
-    (args.out / "lesson.json").write_text(encoded + "\n", encoding="utf-8")
+    (args.out / "index.html").write_text(html, encoding="utf-8", newline="\n")
+    (args.out / "lesson.json").write_text(
+        encoded + "\n", encoding="utf-8", newline="\n"
+    )
     metadata = dict(
         title="动态学习与模型辅助控制",
         source_sha256=hashlib.sha256(args.results.read_bytes()).hexdigest(),
@@ -38,7 +40,9 @@ def main():
         rights="../../RIGHTS.md",
     )
     (args.out / "build_manifest.json").write_text(
-        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
     )
     print(json.dumps(metadata, ensure_ascii=False))
 

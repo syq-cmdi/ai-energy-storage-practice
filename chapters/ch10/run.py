@@ -34,6 +34,7 @@ def dump(path, value):
     path.write_text(
         json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False),
         encoding="utf-8",
+        newline="\n",
     )
 
 

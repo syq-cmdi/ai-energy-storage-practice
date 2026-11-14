@@ -1,7 +1,9 @@
 """Independent numerical, trajectory-isolation and controller-behavior checks."""
 
 from pathlib import Path
-import argparse, json, math, copy, hashlib
+import argparse, json, math, copy, hashlib, io, tempfile
+from contextlib import redirect_stdout
+from unittest.mock import patch
 import numpy as np
 from model import (
     ROOT,
@@ -20,7 +22,8 @@ from model import (
     plan,
     execute_action,
 )
-from run import window_errors
+from run import dump, window_errors
+import build_demo
 
 REPO = ROOT.parents[1]
 
@@ -33,6 +36,73 @@ def verify(source):
         if not value:
             raise AssertionError(label)
         checks.append(label)
+
+    # Emulate Windows default newline translation on every platform. This checks
+    # the production writers, including the HTML digest, against actual bytes.
+    probe = {"lesson": "换行测试", "values": [1, 2]}
+    canonical = json.dumps(probe, ensure_ascii=False, indent=2, allow_nan=False)
+    buffer = io.BytesIO()
+    stream = io.TextIOWrapper(buffer, encoding="utf-8", newline="\r\n")
+    stream.write(canonical)
+    stream.flush()
+    windows_bytes = buffer.getvalue()
+    check(
+        "Windows default newline baseline changes JSON bytes and digest",
+        b"\r\n" in windows_bytes
+        and hashlib.sha256(windows_bytes).digest()
+        != hashlib.sha256(canonical.encode("utf-8")).digest(),
+    )
+    stream.close()
+    original_write_text = Path.write_text
+
+    def windows_default_write_text(
+        path, data, encoding=None, errors=None, newline=None
+    ):
+        return original_write_text(
+            path,
+            data,
+            encoding=encoding,
+            errors=errors,
+            newline="\r\n" if newline is None else newline,
+        )
+
+    with tempfile.TemporaryDirectory(prefix="ch10-lf-") as directory:
+        folder = Path(directory)
+        with patch.object(Path, "write_text", windows_default_write_text):
+            dump(folder / "probe.json", probe)
+            with patch(
+                "sys.argv",
+                [
+                    "build_demo.py",
+                    "--results",
+                    str(source.resolve()),
+                    "--out",
+                    str(folder / "demo"),
+                ],
+            ), redirect_stdout(io.StringIO()):
+                build_demo.main()
+        check(
+            "JSON writer preserves canonical UTF-8 LF under Windows simulation",
+            (folder / "probe.json").read_bytes() == canonical.encode("utf-8"),
+        )
+        metadata = json.loads(
+            (folder / "demo/build_manifest.json").read_text(encoding="utf-8")
+        )
+        check(
+            "demo HTML digest equals actual emitted bytes under Windows simulation",
+            metadata["html_sha256"]
+            == hashlib.sha256((folder / "demo/index.html").read_bytes()).hexdigest(),
+        )
+        check(
+            "demo source digest equals input file bytes under Windows simulation",
+            metadata["source_sha256"]
+            == hashlib.sha256(source.read_bytes()).hexdigest(),
+        )
+        for filename in ["index.html", "lesson.json", "build_manifest.json"]:
+            check(
+                "demo " + filename + " retains LF under Windows simulation",
+                b"\r\n" not in (folder / "demo" / filename).read_bytes(),
+            )
 
     episodes = d["episodes"]
     byid = {e["id"]: e for e in episodes}
@@ -301,7 +371,7 @@ def verify(source):
         scope="constructed W-H1 experiments and specified faults",
     )
     (source.parent / "verification.json").write_text(
-        json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n"
     )
     print(
         json.dumps({"passed": len(checks), "scope": out["scope"]}, ensure_ascii=False)
