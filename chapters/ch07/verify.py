@@ -58,7 +58,7 @@ def main():
         "--source", type=Path, default=ROOT / "results/ch07/experiment.json"
     )
     a = ap.parse_args()
-    ex = json.loads(a.source.read_text())
+    ex = json.loads(a.source.read_text(encoding="utf-8"))
     q = np.array(ex["selected_q"])
     checks = {}
     c = Config()
@@ -160,7 +160,7 @@ def main():
     checks["evaluations"] = len(ex["metrics"])
     checks["status"] = "PASS"
     out = a.source.parent / "verification_report.json"
-    out.write_text(json.dumps(checks, indent=2))
+    out.write_text(json.dumps(checks, indent=2), encoding="utf-8")
     print(json.dumps(checks, indent=2))
 
 

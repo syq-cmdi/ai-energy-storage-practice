@@ -20,7 +20,7 @@ def main():
     ap.add_argument("--font")
     a = ap.parse_args()
     setup(a.font)
-    e = json.loads(a.source.read_text())
+    e = json.loads(a.source.read_text(encoding="utf-8"))
     out = a.out
 
     def trace(s, m, k):

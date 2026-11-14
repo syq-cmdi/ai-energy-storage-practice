@@ -159,7 +159,8 @@ def main():
         selected_q=qs[selected].round(10).tolist(),
     )
     (out / "experiment.json").write_text(
-        json.dumps(experiment, ensure_ascii=False, separators=(",", ":"))
+        json.dumps(experiment, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
     )
     (out / "manifest.json").write_text(
         json.dumps(
@@ -173,7 +174,8 @@ def main():
                 selection=selection,
             ),
             indent=2,
-        )
+        ),
+        encoding="utf-8",
     )
     print("completed", out, "evaluations", len(summ), flush=True)
 

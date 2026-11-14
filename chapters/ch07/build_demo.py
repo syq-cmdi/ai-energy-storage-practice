@@ -10,7 +10,7 @@ def main():
         "--source", type=Path, default=ROOT / "results/ch07/experiment.json"
     )
     a = ap.parse_args()
-    ex = json.loads(a.source.read_text())
+    ex = json.loads(a.source.read_text(encoding="utf-8"))
     out = ROOT / "demo/ch07"
     data = dict(
         config=ex["config"],
@@ -22,23 +22,24 @@ def main():
         },
     )
     (out / "data.js").write_text(
-        "const CH07_DATA=" + json.dumps(data, separators=(",", ":")) + ";\n"
+        "const CH07_DATA=" + json.dumps(data, separators=(",", ":")) + ";\n",
+        encoding="utf-8",
     )
     html = (
         (out / "index.html")
-        .read_text()
+        .read_text(encoding="utf-8")
         .replace(
             '<link rel="stylesheet" href="style.css">',
-            "<style>" + (out / "style.css").read_text() + "</style>",
+            "<style>" + (out / "style.css").read_text(encoding="utf-8") + "</style>",
         )
     )
     for f in ["data.js", "math.js", "app.js"]:
         html = html.replace(
             f'<script src="{f}"></script>',
-            "<script>" + (out / f).read_text() + "</script>",
+            "<script>" + (out / f).read_text(encoding="utf-8") + "</script>",
         )
-    (out / "教学演示.html").write_text(html)
-    print("offline demo:", out / "教学演示.html")
+    (out / "教学演示.html").write_text(html, encoding="utf-8")
+    print("offline demo generated (UTF-8 standalone HTML).")
 
 
 if __name__ == "__main__":
