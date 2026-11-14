@@ -68,6 +68,8 @@ def verify(source):
 
     with tempfile.TemporaryDirectory(prefix="ch10-lf-") as directory:
         folder = Path(directory)
+        console_buffer = io.BytesIO()
+        console = io.TextIOWrapper(console_buffer, encoding="cp1252")
         with patch.object(Path, "write_text", windows_default_write_text):
             dump(folder / "probe.json", probe)
             with patch(
@@ -79,14 +81,21 @@ def verify(source):
                     "--out",
                     str(folder / "demo"),
                 ],
-            ), redirect_stdout(io.StringIO()):
+            ), redirect_stdout(console):
                 build_demo.main()
+        console.flush()
+        console_metadata = json.loads(console_buffer.getvalue().decode("cp1252"))
+        console.close()
         check(
             "JSON writer preserves canonical UTF-8 LF under Windows simulation",
             (folder / "probe.json").read_bytes() == canonical.encode("utf-8"),
         )
         metadata = json.loads(
             (folder / "demo/build_manifest.json").read_text(encoding="utf-8")
+        )
+        check(
+            "console JSON remains readable with Windows cp1252 encoding",
+            console_metadata == metadata,
         )
         check(
             "demo HTML digest equals actual emitted bytes under Windows simulation",

@@ -44,7 +44,7 @@ def main():
         encoding="utf-8",
         newline="\n",
     )
-    print(json.dumps(metadata, ensure_ascii=False))
+    print(json.dumps(metadata, ensure_ascii=True))
 
 
 if __name__ == "__main__":
