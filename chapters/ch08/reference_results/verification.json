@@ -1,0 +1,16 @@
+{
+  "checks": 52540,
+  "cases": 36,
+  "ablations": 3,
+  "passed": true,
+  "independent_tests": [
+    "stepwise mass/power/demand and constraints",
+    "whole-horizon mass/cost",
+    "hand-solvable two-step mixed-integer optimum",
+    "infeasible target surfaced",
+    "zero usable inventory shortage",
+    "5 kg/h hand calculation",
+    "future observation isolation",
+    "ideal gas unit conversion"
+  ]
+}

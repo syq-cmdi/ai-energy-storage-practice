@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="316.8pt" viewBox="0 0 547.2 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T13:07:37.829755</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 316.8 
+L 547.2 316.8 
+L 547.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 29.32992 83.38176 
+L 179.04384 83.38176 
+Q 185.347584 83.38176 185.347584 77.2992 
+L 185.347584 34.2144 
+Q 185.347584 28.13184 179.04384 28.13184 
+L 29.32992 28.13184 
+Q 23.026176 28.13184 23.026176 34.2144 
+L 23.026176 77.2992 
+Q 23.026176 83.38176 29.32992 83.38176 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #4676b5; fill-opacity: 0.070588; stroke: #4676b5; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 368.15616 83.38176 
+L 517.87008 83.38176 
+Q 524.173824 83.38176 524.173824 77.2992 
+L 524.173824 34.2144 
+Q 524.173824 28.13184 517.87008 28.13184 
+L 368.15616 28.13184 
+Q 361.852416 28.13184 361.852416 34.2144 
+L 361.852416 77.2992 
+Q 361.852416 83.38176 368.15616 83.38176 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #4676b5; fill-opacity: 0.070588; stroke: #4676b5; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 81.86112 109.712109 
+Q 81.86112 126.719858 81.86112 141.938751 
+" clip-path="url(#pc7363b4931)" style="fill: none; stroke: #4676b5; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 84.66112 136.338751 
+L 81.86112 141.938751 
+L 79.06112 136.338751 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #4676b5; stroke: #4676b5; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 210.56256 109.712109 
+Q 210.56256 126.719858 210.56256 141.938751 
+" clip-path="url(#pc7363b4931)" style="fill: none; stroke: #4676b5; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 213.36256 136.338751 
+L 210.56256 141.938751 
+L 207.76256 136.338751 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #4676b5; stroke: #4676b5; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 26.70336 215.17056 
+L 137.01888 215.17056 
+Q 143.322624 215.17056 143.322624 209.088 
+L 143.322624 150.7968 
+Q 143.322624 144.71424 137.01888 144.71424 
+L 26.70336 144.71424 
+Q 20.399616 144.71424 20.399616 150.7968 
+L 20.399616 209.088 
+Q 20.399616 215.17056 26.70336 215.17056 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #4676b5; fill-opacity: 0.070588; stroke: #4676b5; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 168.5376 215.17056 
+L 252.58752 215.17056 
+Q 258.891264 215.17056 258.891264 209.088 
+L 258.891264 150.7968 
+Q 258.891264 144.71424 252.58752 144.71424 
+L 168.5376 144.71424 
+Q 162.233856 144.71424 162.233856 150.7968 
+L 162.233856 209.088 
+Q 162.233856 215.17056 168.5376 215.17056 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #cf893b; fill-opacity: 0.070588; stroke: #cf893b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 284.10624 215.17056 
+L 394.42176 215.17056 
+Q 400.725504 215.17056 400.725504 209.088 
+L 400.725504 150.7968 
+Q 400.725504 144.71424 394.42176 144.71424 
+L 284.10624 144.71424 
+Q 277.802496 144.71424 277.802496 150.7968 
+L 277.802496 209.088 
+Q 277.802496 215.17056 284.10624 215.17056 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #148b89; fill-opacity: 0.070588; stroke: #148b89; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 425.94048 215.17056 
+L 520.49664 215.17056 
+Q 526.800384 215.17056 526.800384 209.088 
+L 526.800384 150.7968 
+Q 526.800384 144.71424 520.49664 144.71424 
+L 425.94048 144.71424 
+Q 419.636736 144.71424 419.636736 150.7968 
+L 419.636736 209.088 
+Q 419.636736 215.17056 425.94048 215.17056 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #8f75ae; fill-opacity: 0.070588; stroke: #8f75ae; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 144.270135 181.2096 
+Q 152.776919 181.2096 159.494849 181.2096 
+" clip-path="url(#pc7363b4931)" style="fill: none; stroke: #148b89; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 153.894849 178.4096 
+L 159.494849 181.2096 
+L 153.894849 184.0096 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #148b89; stroke: #148b89; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 259.838775 181.2096 
+Q 268.345559 181.2096 275.063489 181.2096 
+" clip-path="url(#pc7363b4931)" style="fill: none; stroke: #148b89; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 269.463489 178.4096 
+L 275.063489 181.2096 
+L 269.463489 184.0096 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #148b89; stroke: #148b89; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 401.673015 181.2096 
+Q 410.179799 181.2096 416.897729 181.2096 
+" clip-path="url(#pc7363b4931)" style="fill: none; stroke: #148b89; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 411.297729 178.4096 
+L 416.897729 181.2096 
+L 411.297729 184.0096 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #148b89; stroke: #148b89; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 58.22208 298.80576 
+L 488.97792 298.80576 
+Q 495.281664 298.80576 495.281664 292.7232 
+L 495.281664 254.7072 
+Q 495.281664 248.62464 488.97792 248.62464 
+L 58.22208 248.62464 
+Q 51.918336 248.62464 51.918336 254.7072 
+L 51.918336 292.7232 
+Q 51.918336 298.80576 58.22208 298.80576 
+z
+" clip-path="url(#pc7363b4931)" style="fill: #5c7181; fill-opacity: 0.070588; stroke: #5c7181; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 105.50016 82.368 
+L 105.50016 107.712 
+L 441.69984 107.712 
+L 441.69984 82.368 
+" clip-path="url(#pc7363b4931)" style="fill: none; stroke: #4676b5; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #4676b5" x="104.18688" y="50.238955" transform="rotate(-0 104.18688 50.238955)">可再生电源</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="104.18688" y="71.214556" transform="rotate(-0 104.18688 71.214556)">已知/预测输入 R，单位 kW</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #4676b5" x="443.01312" y="50.238955" transform="rotate(-0 443.01312 50.238955)">电网接入</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="443.01312" y="71.035728" transform="rotate(-0 443.01312 71.035728)">购电 g 与接入上限</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #4676b5" x="273.6" y="101.62944" transform="rotate(-0 273.6 101.62944)">电功率母线：电解 + 压缩 + 辅助</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #4676b5" x="81.86112" y="171.687403" transform="rotate(-0 81.86112 171.687403)">电解单元</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="81.86112" y="198.81365" transform="rotate(-0 81.86112 198.81365)">P → q = P / 55</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #cf893b" x="210.56256" y="171.687403" transform="rotate(-0 210.56256 171.687403)">压缩机</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="210.56256" y="198.55115" transform="rotate(-0 210.56256 198.55115)">3q kW</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #148b89" x="339.264" y="171.687403" transform="rotate(-0 339.264 171.687403)">质量库存</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="339.264" y="198.55115" transform="rotate(-0 339.264 198.55115)">20 ≤ m ≤ 80 kg</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #8f75ae" x="473.21856" y="171.687403" transform="rotate(-0 473.21856 171.687403)">用氢需求</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="473.21856" y="198.55115" transform="rotate(-0 473.21856 198.55115)">已供 + 缺供</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="273.6" y="269.109739" transform="rotate(-0 273.6 269.109739)">两条账本，逐步核对</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="273.6" y="288.125906" transform="rotate(-0 273.6 288.125906)">电能：kW × h → kWh       氢质量：kg/h × h → kg</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc7363b4931">
+   <rect x="10.944" y="6.336" width="525.312" height="304.128"/>
+  </clipPath>
+ </defs>
+</svg>
