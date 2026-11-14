@@ -1,0 +1,3353 @@
+{
+  "chapter": 5,
+  "version": "0.1.0",
+  "data_source": "explicitly constructed teaching data",
+  "config": {
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "loss": 0.002,
+    "useful": 0.85,
+    "p_chiller": 55.0,
+    "p_charge": 30.0,
+    "p_discharge": 30.0,
+    "loop_flow": 3.2,
+    "t_chiller": 6.0,
+    "t_tank": 6.0,
+    "t_return": 12.0,
+    "t_max": 7.0,
+    "pump_ratio": 0.015,
+    "shortage_price": 100.0,
+    "dt": 1.0
+  },
+  "forecast_training": {
+    "training_days": 28,
+    "validation_days": 7,
+    "training_rows": 672,
+    "validation_rows": 168,
+    "selected_alpha": 1,
+    "candidates": [
+      {
+        "alpha": 0.01,
+        "validation_rmse_kw": 1.5654786058361985
+      },
+      {
+        "alpha": 0.1,
+        "validation_rmse_kw": 1.5654614112660286
+      },
+      {
+        "alpha": 1,
+        "validation_rmse_kw": 1.5654153520498153
+      },
+      {
+        "alpha": 10,
+        "validation_rmse_kw": 1.5748676982655363
+      },
+      {
+        "alpha": 100,
+        "validation_rmse_kw": 1.8787475891443282
+      }
+    ],
+    "scaler_mean": [
+      26.25412652104157,
+      2.140045795684387,
+      -7.3271415390068e-17,
+      -7.351923302949325e-17,
+      -6.60847038467355e-19,
+      -3.6842222394555044e-17
+    ],
+    "scaler_scale": [
+      4.91954342189018,
+      2.94954543920875,
+      0.7071067811865476,
+      0.7071067811865476,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "coefficients": [
+      7.276950778514815,
+      0.4603713253841814,
+      -3.1799587696249447,
+      -5.525311306761853,
+      1.7675272260945865,
+      0.9995585351747548
+    ],
+    "intercept": 37.34899224508279
+  },
+  "annual": {
+    "rate": 0.05,
+    "years": 15,
+    "crf": 0.09634228760924432,
+    "weights": {
+      "cool": 150,
+      "mild": 120,
+      "hot": 90,
+      "heatwave": 5
+    },
+    "rows": [
+      {
+        "volume": 0,
+        "policy": "rule",
+        "investment_cny": 0,
+        "annual_capital_cny": 0.0,
+        "weighted_electricity_cost_cny": 48981.88994107799,
+        "weighted_total_cost_cny": 48981.88994107799,
+        "weighted_unmet_kwh": 3729.650550017767,
+        "weight_days": 365
+      },
+      {
+        "volume": 0,
+        "policy": "perfect",
+        "investment_cny": 0,
+        "annual_capital_cny": 0.0,
+        "weighted_electricity_cost_cny": 48981.88994107799,
+        "weighted_total_cost_cny": 48981.88994107799,
+        "weighted_unmet_kwh": 3729.650550017767,
+        "weight_days": 365
+      },
+      {
+        "volume": 0,
+        "policy": "mpc",
+        "investment_cny": 0,
+        "annual_capital_cny": 0.0,
+        "weighted_electricity_cost_cny": 48981.88994107799,
+        "weighted_total_cost_cny": 48981.88994107799,
+        "weighted_unmet_kwh": 3729.650550017767,
+        "weight_days": 365
+      },
+      {
+        "volume": 10,
+        "policy": "rule",
+        "investment_cny": 14000.0,
+        "annual_capital_cny": 1348.7920265294206,
+        "weighted_electricity_cost_cny": 46691.60238814069,
+        "weighted_total_cost_cny": 48040.39441467011,
+        "weighted_unmet_kwh": 2464.5250472225603,
+        "weight_days": 365
+      },
+      {
+        "volume": 10,
+        "policy": "perfect",
+        "investment_cny": 14000.0,
+        "annual_capital_cny": 1348.7920265294206,
+        "weighted_electricity_cost_cny": 47061.6167050781,
+        "weighted_total_cost_cny": 48410.408731607524,
+        "weighted_unmet_kwh": 598.0164276743266,
+        "weight_days": 365
+      },
+      {
+        "volume": 10,
+        "policy": "mpc",
+        "investment_cny": 14000.0,
+        "annual_capital_cny": 1348.7920265294206,
+        "weighted_electricity_cost_cny": 47018.781653632366,
+        "weighted_total_cost_cny": 48367.57368016179,
+        "weighted_unmet_kwh": 852.031836331957,
+        "weight_days": 365
+      },
+      {
+        "volume": 20,
+        "policy": "rule",
+        "investment_cny": 20000.0,
+        "annual_capital_cny": 1926.8457521848864,
+        "weighted_electricity_cost_cny": 44385.15418170686,
+        "weighted_total_cost_cny": 46311.99993389174,
+        "weighted_unmet_kwh": 1119.2597477506702,
+        "weight_days": 365
+      },
+      {
+        "volume": 20,
+        "policy": "perfect",
+        "investment_cny": 20000.0,
+        "annual_capital_cny": 1926.8457521848864,
+        "weighted_electricity_cost_cny": 44510.80850652316,
+        "weighted_total_cost_cny": 46437.65425870804,
+        "weighted_unmet_kwh": 320.1683260196282,
+        "weight_days": 365
+      },
+      {
+        "volume": 20,
+        "policy": "mpc",
+        "investment_cny": 20000.0,
+        "annual_capital_cny": 1926.8457521848864,
+        "weighted_electricity_cost_cny": 44458.88830351983,
+        "weighted_total_cost_cny": 46385.734055704714,
+        "weighted_unmet_kwh": 574.1837346772588,
+        "weight_days": 365
+      },
+      {
+        "volume": 30,
+        "policy": "rule",
+        "investment_cny": 26000.0,
+        "annual_capital_cny": 2504.899477840352,
+        "weighted_electricity_cost_cny": 42115.42196740341,
+        "weighted_total_cost_cny": 44620.32144524376,
+        "weighted_unmet_kwh": 679.550316940588,
+        "weight_days": 365
+      },
+      {
+        "volume": 30,
+        "policy": "perfect",
+        "investment_cny": 26000.0,
+        "annual_capital_cny": 2504.899477840352,
+        "weighted_electricity_cost_cny": 42100.223815977035,
+        "weighted_total_cost_cny": 44605.123293817385,
+        "weighted_unmet_kwh": 171.0606129488786,
+        "weight_days": 365
+      },
+      {
+        "volume": 30,
+        "policy": "mpc",
+        "investment_cny": 26000.0,
+        "annual_capital_cny": 2504.899477840352,
+        "weighted_electricity_cost_cny": 42090.79502089656,
+        "weighted_total_cost_cny": 44595.69449873691,
+        "weighted_unmet_kwh": 218.16938592045827,
+        "weight_days": 365
+      },
+      {
+        "volume": 40,
+        "policy": "rule",
+        "investment_cny": 32000.0,
+        "annual_capital_cny": 3082.9532034958183,
+        "weighted_electricity_cost_cny": 41482.75573031882,
+        "weighted_total_cost_cny": 44565.70893381464,
+        "weighted_unmet_kwh": 679.5503169405874,
+        "weight_days": 365
+      },
+      {
+        "volume": 40,
+        "policy": "perfect",
+        "investment_cny": 32000.0,
+        "annual_capital_cny": 3082.9532034958183,
+        "weighted_electricity_cost_cny": 40757.383884443756,
+        "weighted_total_cost_cny": 43840.33708793957,
+        "weighted_unmet_kwh": 171.0606129488784,
+        "weight_days": 365
+      },
+      {
+        "volume": 40,
+        "policy": "mpc",
+        "investment_cny": 32000.0,
+        "annual_capital_cny": 3082.9532034958183,
+        "weighted_electricity_cost_cny": 40746.25046961002,
+        "weighted_total_cost_cny": 43829.20367310584,
+        "weighted_unmet_kwh": 218.16938592045827,
+        "weight_days": 365
+      },
+      {
+        "volume": 50,
+        "policy": "rule",
+        "investment_cny": 38000.0,
+        "annual_capital_cny": 3661.006929151284,
+        "weighted_electricity_cost_cny": 41482.75573031882,
+        "weighted_total_cost_cny": 45143.76265947011,
+        "weighted_unmet_kwh": 679.5503169405874,
+        "weight_days": 365
+      },
+      {
+        "volume": 50,
+        "policy": "perfect",
+        "investment_cny": 38000.0,
+        "annual_capital_cny": 3661.006929151284,
+        "weighted_electricity_cost_cny": 40525.89049177021,
+        "weighted_total_cost_cny": 44186.897420921494,
+        "weighted_unmet_kwh": 171.06061294887837,
+        "weight_days": 365
+      },
+      {
+        "volume": 50,
+        "policy": "mpc",
+        "investment_cny": 38000.0,
+        "annual_capital_cny": 3661.006929151284,
+        "weighted_electricity_cost_cny": 40514.75707693647,
+        "weighted_total_cost_cny": 44175.76400608775,
+        "weighted_unmet_kwh": 218.16938592045827,
+        "weight_days": 365
+      },
+      {
+        "volume": 60,
+        "policy": "rule",
+        "investment_cny": 44000.0,
+        "annual_capital_cny": 4239.06065480675,
+        "weighted_electricity_cost_cny": 41482.75573031882,
+        "weighted_total_cost_cny": 45721.816385125574,
+        "weighted_unmet_kwh": 679.5503169405874,
+        "weight_days": 365
+      },
+      {
+        "volume": 60,
+        "policy": "perfect",
+        "investment_cny": 44000.0,
+        "annual_capital_cny": 4239.06065480675,
+        "weighted_electricity_cost_cny": 40525.89049177021,
+        "weighted_total_cost_cny": 44764.95114657696,
+        "weighted_unmet_kwh": 171.06061294887837,
+        "weight_days": 365
+      },
+      {
+        "volume": 60,
+        "policy": "mpc",
+        "investment_cny": 44000.0,
+        "annual_capital_cny": 4239.06065480675,
+        "weighted_electricity_cost_cny": 40514.75707693647,
+        "weighted_total_cost_cny": 44753.81773174322,
+        "weighted_unmet_kwh": 218.16938592045827,
+        "weight_days": 365
+      }
+    ]
+  },
+  "investment_sensitivity": [
+    {
+      "investment_scale": 0.5,
+      "rate": 0.05,
+      "years": 15,
+      "crf": 0.09634228760924432,
+      "weights": {
+        "cool": 150,
+        "mild": 120,
+        "hot": 90,
+        "heatwave": 5
+      },
+      "rows": [
+        {
+          "volume": 0,
+          "policy": "rule",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 0,
+          "policy": "perfect",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 0,
+          "policy": "mpc",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "rule",
+          "investment_cny": 7000.0,
+          "annual_capital_cny": 674.3960132647103,
+          "weighted_electricity_cost_cny": 46691.60238814069,
+          "weighted_total_cost_cny": 47365.9984014054,
+          "weighted_unmet_kwh": 2464.5250472225603,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "perfect",
+          "investment_cny": 7000.0,
+          "annual_capital_cny": 674.3960132647103,
+          "weighted_electricity_cost_cny": 47061.6167050781,
+          "weighted_total_cost_cny": 47736.01271834281,
+          "weighted_unmet_kwh": 598.0164276743266,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "mpc",
+          "investment_cny": 7000.0,
+          "annual_capital_cny": 674.3960132647103,
+          "weighted_electricity_cost_cny": 47018.781653632366,
+          "weighted_total_cost_cny": 47693.17766689708,
+          "weighted_unmet_kwh": 852.031836331957,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "rule",
+          "investment_cny": 10000.0,
+          "annual_capital_cny": 963.4228760924432,
+          "weighted_electricity_cost_cny": 44385.15418170686,
+          "weighted_total_cost_cny": 45348.5770577993,
+          "weighted_unmet_kwh": 1119.2597477506702,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "perfect",
+          "investment_cny": 10000.0,
+          "annual_capital_cny": 963.4228760924432,
+          "weighted_electricity_cost_cny": 44510.80850652316,
+          "weighted_total_cost_cny": 45474.2313826156,
+          "weighted_unmet_kwh": 320.1683260196282,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "mpc",
+          "investment_cny": 10000.0,
+          "annual_capital_cny": 963.4228760924432,
+          "weighted_electricity_cost_cny": 44458.88830351983,
+          "weighted_total_cost_cny": 45422.311179612276,
+          "weighted_unmet_kwh": 574.1837346772588,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "rule",
+          "investment_cny": 13000.0,
+          "annual_capital_cny": 1252.449738920176,
+          "weighted_electricity_cost_cny": 42115.42196740341,
+          "weighted_total_cost_cny": 43367.87170632359,
+          "weighted_unmet_kwh": 679.550316940588,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "perfect",
+          "investment_cny": 13000.0,
+          "annual_capital_cny": 1252.449738920176,
+          "weighted_electricity_cost_cny": 42100.223815977035,
+          "weighted_total_cost_cny": 43352.673554897214,
+          "weighted_unmet_kwh": 171.0606129488786,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "mpc",
+          "investment_cny": 13000.0,
+          "annual_capital_cny": 1252.449738920176,
+          "weighted_electricity_cost_cny": 42090.79502089656,
+          "weighted_total_cost_cny": 43343.24475981674,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "rule",
+          "investment_cny": 16000.0,
+          "annual_capital_cny": 1541.4766017479092,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 43024.232332066735,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "perfect",
+          "investment_cny": 16000.0,
+          "annual_capital_cny": 1541.4766017479092,
+          "weighted_electricity_cost_cny": 40757.383884443756,
+          "weighted_total_cost_cny": 42298.86048619167,
+          "weighted_unmet_kwh": 171.0606129488784,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "mpc",
+          "investment_cny": 16000.0,
+          "annual_capital_cny": 1541.4766017479092,
+          "weighted_electricity_cost_cny": 40746.25046961002,
+          "weighted_total_cost_cny": 42287.727071357935,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "rule",
+          "investment_cny": 19000.0,
+          "annual_capital_cny": 1830.503464575642,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 43313.25919489446,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "perfect",
+          "investment_cny": 19000.0,
+          "annual_capital_cny": 1830.503464575642,
+          "weighted_electricity_cost_cny": 40525.89049177021,
+          "weighted_total_cost_cny": 42356.39395634585,
+          "weighted_unmet_kwh": 171.06061294887837,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "mpc",
+          "investment_cny": 19000.0,
+          "annual_capital_cny": 1830.503464575642,
+          "weighted_electricity_cost_cny": 40514.75707693647,
+          "weighted_total_cost_cny": 42345.26054151211,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "rule",
+          "investment_cny": 22000.0,
+          "annual_capital_cny": 2119.530327403375,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 43602.286057722195,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "perfect",
+          "investment_cny": 22000.0,
+          "annual_capital_cny": 2119.530327403375,
+          "weighted_electricity_cost_cny": 40525.89049177021,
+          "weighted_total_cost_cny": 42645.42081917358,
+          "weighted_unmet_kwh": 171.06061294887837,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "mpc",
+          "investment_cny": 22000.0,
+          "annual_capital_cny": 2119.530327403375,
+          "weighted_electricity_cost_cny": 40514.75707693647,
+          "weighted_total_cost_cny": 42634.28740433984,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        }
+      ]
+    },
+    {
+      "investment_scale": 1,
+      "rate": 0.05,
+      "years": 15,
+      "crf": 0.09634228760924432,
+      "weights": {
+        "cool": 150,
+        "mild": 120,
+        "hot": 90,
+        "heatwave": 5
+      },
+      "rows": [
+        {
+          "volume": 0,
+          "policy": "rule",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 0,
+          "policy": "perfect",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 0,
+          "policy": "mpc",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "rule",
+          "investment_cny": 14000,
+          "annual_capital_cny": 1348.7920265294206,
+          "weighted_electricity_cost_cny": 46691.60238814069,
+          "weighted_total_cost_cny": 48040.39441467011,
+          "weighted_unmet_kwh": 2464.5250472225603,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "perfect",
+          "investment_cny": 14000,
+          "annual_capital_cny": 1348.7920265294206,
+          "weighted_electricity_cost_cny": 47061.6167050781,
+          "weighted_total_cost_cny": 48410.408731607524,
+          "weighted_unmet_kwh": 598.0164276743266,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "mpc",
+          "investment_cny": 14000,
+          "annual_capital_cny": 1348.7920265294206,
+          "weighted_electricity_cost_cny": 47018.781653632366,
+          "weighted_total_cost_cny": 48367.57368016179,
+          "weighted_unmet_kwh": 852.031836331957,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "rule",
+          "investment_cny": 20000,
+          "annual_capital_cny": 1926.8457521848864,
+          "weighted_electricity_cost_cny": 44385.15418170686,
+          "weighted_total_cost_cny": 46311.99993389174,
+          "weighted_unmet_kwh": 1119.2597477506702,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "perfect",
+          "investment_cny": 20000,
+          "annual_capital_cny": 1926.8457521848864,
+          "weighted_electricity_cost_cny": 44510.80850652316,
+          "weighted_total_cost_cny": 46437.65425870804,
+          "weighted_unmet_kwh": 320.1683260196282,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "mpc",
+          "investment_cny": 20000,
+          "annual_capital_cny": 1926.8457521848864,
+          "weighted_electricity_cost_cny": 44458.88830351983,
+          "weighted_total_cost_cny": 46385.734055704714,
+          "weighted_unmet_kwh": 574.1837346772588,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "rule",
+          "investment_cny": 26000,
+          "annual_capital_cny": 2504.899477840352,
+          "weighted_electricity_cost_cny": 42115.42196740341,
+          "weighted_total_cost_cny": 44620.32144524376,
+          "weighted_unmet_kwh": 679.550316940588,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "perfect",
+          "investment_cny": 26000,
+          "annual_capital_cny": 2504.899477840352,
+          "weighted_electricity_cost_cny": 42100.223815977035,
+          "weighted_total_cost_cny": 44605.123293817385,
+          "weighted_unmet_kwh": 171.0606129488786,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "mpc",
+          "investment_cny": 26000,
+          "annual_capital_cny": 2504.899477840352,
+          "weighted_electricity_cost_cny": 42090.79502089656,
+          "weighted_total_cost_cny": 44595.69449873691,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "rule",
+          "investment_cny": 32000,
+          "annual_capital_cny": 3082.9532034958183,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 44565.70893381464,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "perfect",
+          "investment_cny": 32000,
+          "annual_capital_cny": 3082.9532034958183,
+          "weighted_electricity_cost_cny": 40757.383884443756,
+          "weighted_total_cost_cny": 43840.33708793957,
+          "weighted_unmet_kwh": 171.0606129488784,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "mpc",
+          "investment_cny": 32000,
+          "annual_capital_cny": 3082.9532034958183,
+          "weighted_electricity_cost_cny": 40746.25046961002,
+          "weighted_total_cost_cny": 43829.20367310584,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "rule",
+          "investment_cny": 38000,
+          "annual_capital_cny": 3661.006929151284,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 45143.76265947011,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "perfect",
+          "investment_cny": 38000,
+          "annual_capital_cny": 3661.006929151284,
+          "weighted_electricity_cost_cny": 40525.89049177021,
+          "weighted_total_cost_cny": 44186.897420921494,
+          "weighted_unmet_kwh": 171.06061294887837,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "mpc",
+          "investment_cny": 38000,
+          "annual_capital_cny": 3661.006929151284,
+          "weighted_electricity_cost_cny": 40514.75707693647,
+          "weighted_total_cost_cny": 44175.76400608775,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "rule",
+          "investment_cny": 44000,
+          "annual_capital_cny": 4239.06065480675,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 45721.816385125574,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "perfect",
+          "investment_cny": 44000,
+          "annual_capital_cny": 4239.06065480675,
+          "weighted_electricity_cost_cny": 40525.89049177021,
+          "weighted_total_cost_cny": 44764.95114657696,
+          "weighted_unmet_kwh": 171.06061294887837,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "mpc",
+          "investment_cny": 44000,
+          "annual_capital_cny": 4239.06065480675,
+          "weighted_electricity_cost_cny": 40514.75707693647,
+          "weighted_total_cost_cny": 44753.81773174322,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        }
+      ]
+    },
+    {
+      "investment_scale": 2,
+      "rate": 0.05,
+      "years": 15,
+      "crf": 0.09634228760924432,
+      "weights": {
+        "cool": 150,
+        "mild": 120,
+        "hot": 90,
+        "heatwave": 5
+      },
+      "rows": [
+        {
+          "volume": 0,
+          "policy": "rule",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 0,
+          "policy": "perfect",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 0,
+          "policy": "mpc",
+          "investment_cny": 0,
+          "annual_capital_cny": 0.0,
+          "weighted_electricity_cost_cny": 48981.88994107799,
+          "weighted_total_cost_cny": 48981.88994107799,
+          "weighted_unmet_kwh": 3729.650550017767,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "rule",
+          "investment_cny": 28000,
+          "annual_capital_cny": 2697.584053058841,
+          "weighted_electricity_cost_cny": 46691.60238814069,
+          "weighted_total_cost_cny": 49389.18644119953,
+          "weighted_unmet_kwh": 2464.5250472225603,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "perfect",
+          "investment_cny": 28000,
+          "annual_capital_cny": 2697.584053058841,
+          "weighted_electricity_cost_cny": 47061.6167050781,
+          "weighted_total_cost_cny": 49759.20075813694,
+          "weighted_unmet_kwh": 598.0164276743266,
+          "weight_days": 365
+        },
+        {
+          "volume": 10,
+          "policy": "mpc",
+          "investment_cny": 28000,
+          "annual_capital_cny": 2697.584053058841,
+          "weighted_electricity_cost_cny": 47018.781653632366,
+          "weighted_total_cost_cny": 49716.365706691206,
+          "weighted_unmet_kwh": 852.031836331957,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "rule",
+          "investment_cny": 40000,
+          "annual_capital_cny": 3853.6915043697727,
+          "weighted_electricity_cost_cny": 44385.15418170686,
+          "weighted_total_cost_cny": 48238.84568607663,
+          "weighted_unmet_kwh": 1119.2597477506702,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "perfect",
+          "investment_cny": 40000,
+          "annual_capital_cny": 3853.6915043697727,
+          "weighted_electricity_cost_cny": 44510.80850652316,
+          "weighted_total_cost_cny": 48364.50001089293,
+          "weighted_unmet_kwh": 320.1683260196282,
+          "weight_days": 365
+        },
+        {
+          "volume": 20,
+          "policy": "mpc",
+          "investment_cny": 40000,
+          "annual_capital_cny": 3853.6915043697727,
+          "weighted_electricity_cost_cny": 44458.88830351983,
+          "weighted_total_cost_cny": 48312.579807889604,
+          "weighted_unmet_kwh": 574.1837346772588,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "rule",
+          "investment_cny": 52000,
+          "annual_capital_cny": 5009.798955680704,
+          "weighted_electricity_cost_cny": 42115.42196740341,
+          "weighted_total_cost_cny": 47125.22092308411,
+          "weighted_unmet_kwh": 679.550316940588,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "perfect",
+          "investment_cny": 52000,
+          "annual_capital_cny": 5009.798955680704,
+          "weighted_electricity_cost_cny": 42100.223815977035,
+          "weighted_total_cost_cny": 47110.022771657736,
+          "weighted_unmet_kwh": 171.0606129488786,
+          "weight_days": 365
+        },
+        {
+          "volume": 30,
+          "policy": "mpc",
+          "investment_cny": 52000,
+          "annual_capital_cny": 5009.798955680704,
+          "weighted_electricity_cost_cny": 42090.79502089656,
+          "weighted_total_cost_cny": 47100.593976577264,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "rule",
+          "investment_cny": 64000,
+          "annual_capital_cny": 6165.906406991637,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 47648.66213731046,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "perfect",
+          "investment_cny": 64000,
+          "annual_capital_cny": 6165.906406991637,
+          "weighted_electricity_cost_cny": 40757.383884443756,
+          "weighted_total_cost_cny": 46923.29029143539,
+          "weighted_unmet_kwh": 171.0606129488784,
+          "weight_days": 365
+        },
+        {
+          "volume": 40,
+          "policy": "mpc",
+          "investment_cny": 64000,
+          "annual_capital_cny": 6165.906406991637,
+          "weighted_electricity_cost_cny": 40746.25046961002,
+          "weighted_total_cost_cny": 46912.15687660166,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "rule",
+          "investment_cny": 76000,
+          "annual_capital_cny": 7322.013858302568,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 48804.76958862139,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "perfect",
+          "investment_cny": 76000,
+          "annual_capital_cny": 7322.013858302568,
+          "weighted_electricity_cost_cny": 40525.89049177021,
+          "weighted_total_cost_cny": 47847.90435007278,
+          "weighted_unmet_kwh": 171.06061294887837,
+          "weight_days": 365
+        },
+        {
+          "volume": 50,
+          "policy": "mpc",
+          "investment_cny": 76000,
+          "annual_capital_cny": 7322.013858302568,
+          "weighted_electricity_cost_cny": 40514.75707693647,
+          "weighted_total_cost_cny": 47836.77093523904,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "rule",
+          "investment_cny": 88000,
+          "annual_capital_cny": 8478.1213096135,
+          "weighted_electricity_cost_cny": 41482.75573031882,
+          "weighted_total_cost_cny": 49960.877039932326,
+          "weighted_unmet_kwh": 679.5503169405874,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "perfect",
+          "investment_cny": 88000,
+          "annual_capital_cny": 8478.1213096135,
+          "weighted_electricity_cost_cny": 40525.89049177021,
+          "weighted_total_cost_cny": 49004.011801383705,
+          "weighted_unmet_kwh": 171.06061294887837,
+          "weight_days": 365
+        },
+        {
+          "volume": 60,
+          "policy": "mpc",
+          "investment_cny": 88000,
+          "annual_capital_cny": 8478.1213096135,
+          "weighted_electricity_cost_cny": 40514.75707693647,
+          "weighted_total_cost_cny": 48992.87838654997,
+          "weighted_unmet_kwh": 218.16938592045827,
+          "weight_days": 365
+        }
+      ]
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.15.3"
+  },
+  "runs": [
+    {
+      "id": "cool_0_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 0,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 112.45146097216715,
+        "unmet_kwh": 0.0,
+        "objective_cny": 112.45146097216715,
+        "electricity_kwh": 135.18798278982047,
+        "peak_electric_kw": 9.216152654818657,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706494,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "cool_0_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 0,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 112.45146097216715,
+        "unmet_kwh": 0.0,
+        "objective_cny": 112.45146097216715,
+        "electricity_kwh": 135.18798278982047,
+        "peak_electric_kw": 9.216152654818657,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706494,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "cool_0_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 0,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 112.45146097216715,
+        "unmet_kwh": 0.0,
+        "objective_cny": 112.45146097216715,
+        "electricity_kwh": 135.18798278982047,
+        "peak_electric_kw": 9.216152654818657,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706494,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "cool_10_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 10,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 105.70269209648023,
+        "unmet_kwh": 0.0,
+        "objective_cny": 105.70269209648023,
+        "electricity_kwh": 136.59868562668393,
+        "peak_electric_kw": 9.216152654818657,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706494,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "cool_10_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 10,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 105.5358442686082,
+        "unmet_kwh": 0.0,
+        "objective_cny": 105.5358442686082,
+        "electricity_kwh": 136.37168746971773,
+        "peak_electric_kw": 8.865587912943635,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "cool_10_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 10,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 105.57614605599137,
+        "unmet_kwh": 0.0,
+        "objective_cny": 105.57614605599137,
+        "electricity_kwh": 136.44197017936122,
+        "peak_electric_kw": 9.216152654818657,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706494,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "cool_20_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 20,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 98.83975786042073,
+        "unmet_kwh": 0.0,
+        "objective_cny": 98.83975786042073,
+        "electricity_kwh": 137.81801472759307,
+        "peak_electric_kw": 8.865587912943635,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "cool_20_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 20,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 98.67378306767402,
+        "unmet_kwh": 0.0,
+        "objective_cny": 98.67378306767402,
+        "electricity_kwh": 137.64846516767423,
+        "peak_electric_kw": 8.471024702559625,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "cool_20_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 98.69430818865655,
+        "unmet_kwh": 0.0,
+        "objective_cny": 98.69430818865655,
+        "electricity_kwh": 137.70710837048145,
+        "peak_electric_kw": 8.455688445436074,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "cool_30_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 30,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 92.02991402199817,
+        "unmet_kwh": 1.7763568394002505e-15,
+        "objective_cny": 92.02991402199834,
+        "electricity_kwh": 139.0690573644371,
+        "peak_electric_kw": 8.603576717595425,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_30_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 30,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 91.93528865301069,
+        "unmet_kwh": 0.0,
+        "objective_cny": 91.93528865301069,
+        "electricity_kwh": 139.09548411564896,
+        "peak_electric_kw": 8.63556127456989,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_30_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 30,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 91.94452640232218,
+        "unmet_kwh": 0.0,
+        "objective_cny": 91.94452640232218,
+        "electricity_kwh": 139.12187768511038,
+        "peak_electric_kw": 8.603576717595425,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_40_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 40,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 89.70727413494524,
+        "unmet_kwh": 0.0,
+        "objective_cny": 89.70727413494524,
+        "electricity_kwh": 139.58089377427018,
+        "peak_electric_kw": 8.63556127456989,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_40_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 40,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 87.74473756548207,
+        "unmet_kwh": 0.0,
+        "objective_cny": 87.74473756548207,
+        "electricity_kwh": 140.74107502580853,
+        "peak_electric_kw": 9.078414899050555,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 6.394884621840902e-14
+      }
+    },
+    {
+      "id": "cool_40_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 40,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 87.7447375654821,
+        "unmet_kwh": 0.0,
+        "objective_cny": 87.7447375654821,
+        "electricity_kwh": 140.74107502580853,
+        "peak_electric_kw": 9.078414899050555,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_50_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 50,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 89.70727413494524,
+        "unmet_kwh": 0.0,
+        "objective_cny": 89.70727413494524,
+        "electricity_kwh": 139.58089377427018,
+        "peak_electric_kw": 8.63556127456989,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_50_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 50,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 86.92161075442868,
+        "unmet_kwh": 0.0,
+        "objective_cny": 86.92161075442868,
+        "electricity_kwh": 141.30855254242056,
+        "peak_electric_kw": 9.69999482381415,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 3.552713678800501e-14
+      }
+    },
+    {
+      "id": "cool_50_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 50,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 86.9216107544287,
+        "unmet_kwh": 0.0,
+        "objective_cny": 86.9216107544287,
+        "electricity_kwh": 141.30855254242056,
+        "peak_electric_kw": 9.69999482381415,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_60_rule_24_+0.00",
+      "scenario": "cool",
+      "volume": 60,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 89.70727413494524,
+        "unmet_kwh": 0.0,
+        "objective_cny": 89.70727413494524,
+        "electricity_kwh": 139.58089377427018,
+        "peak_electric_kw": 8.63556127456989,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "cool_60_perfect_24_+0.00",
+      "scenario": "cool",
+      "volume": 60,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 86.92161075442868,
+        "unmet_kwh": 0.0,
+        "objective_cny": 86.92161075442868,
+        "electricity_kwh": 141.30855254242056,
+        "peak_electric_kw": 9.69999482381415,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 2.842170943040401e-14
+      }
+    },
+    {
+      "id": "cool_60_mpc_24_+0.00",
+      "scenario": "cool",
+      "volume": 60,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 86.92161075442868,
+        "unmet_kwh": 0.0,
+        "objective_cny": 86.92161075442868,
+        "electricity_kwh": 141.30855254242056,
+        "peak_electric_kw": 9.69999482381415,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 1.9208120557706492,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_0_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 0,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 139.97627014526947,
+        "unmet_kwh": 0.0,
+        "objective_cny": 139.97627014526947,
+        "electricity_kwh": 170.10411397019283,
+        "peak_electric_kw": 10.840812405051208,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "mild_0_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 0,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 139.97627014526947,
+        "unmet_kwh": 0.0,
+        "objective_cny": 139.97627014526947,
+        "electricity_kwh": 170.10411397019283,
+        "peak_electric_kw": 10.840812405051208,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "mild_0_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 0,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 139.97627014526947,
+        "unmet_kwh": 0.0,
+        "objective_cny": 139.97627014526947,
+        "electricity_kwh": 170.10411397019283,
+        "peak_electric_kw": 10.840812405051208,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "mild_10_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 10,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 132.87406704875184,
+        "unmet_kwh": 0.0,
+        "objective_cny": 132.87406704875184,
+        "electricity_kwh": 171.4634579001463,
+        "peak_electric_kw": 10.793387933298792,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "mild_10_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 10,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 132.6897960210838,
+        "unmet_kwh": 0.0,
+        "objective_cny": 132.6897960210838,
+        "electricity_kwh": 171.20633846636332,
+        "peak_electric_kw": 10.840812405051208,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "mild_10_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 10,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 132.75745772034145,
+        "unmet_kwh": 0.0,
+        "objective_cny": 132.75745772034145,
+        "electricity_kwh": 171.3194090011516,
+        "peak_electric_kw": 10.76037145098212,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "mild_20_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 20,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 125.66023482505503,
+        "unmet_kwh": 0.0,
+        "objective_cny": 125.66023482505503,
+        "electricity_kwh": 172.61601360602322,
+        "peak_electric_kw": 10.76037145098212,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "mild_20_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 20,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 125.47425900763136,
+        "unmet_kwh": 0.0,
+        "objective_cny": 125.47425900763136,
+        "electricity_kwh": 172.4363284881611,
+        "peak_electric_kw": 10.42146465039719,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "mild_20_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 125.48463123306752,
+        "unmet_kwh": 0.0,
+        "objective_cny": 125.48463123306752,
+        "electricity_kwh": 172.45403911186995,
+        "peak_electric_kw": 10.42146465039719,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "mild_30_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 30,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 118.46736536062582,
+        "unmet_kwh": 1.7763568394002505e-15,
+        "objective_cny": 118.46736536062599,
+        "electricity_kwh": 173.79624730237882,
+        "peak_electric_kw": 10.072457713929484,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_30_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 30,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 118.35460350311364,
+        "unmet_kwh": 0.0,
+        "objective_cny": 118.35460350311364,
+        "electricity_kwh": 173.79072592259502,
+        "peak_electric_kw": 9.949777201788827,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_30_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 30,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 118.35639481292408,
+        "unmet_kwh": 0.0,
+        "objective_cny": 118.35639481292408,
+        "electricity_kwh": 173.79584395062483,
+        "peak_electric_kw": 9.949777201788827,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_40_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 40,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 116.0984465770704,
+        "unmet_kwh": 0.0,
+        "objective_cny": 116.0984465770704,
+        "electricity_kwh": 174.2570857382242,
+        "peak_electric_kw": 10.072457713929484,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_40_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 40,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 113.96672962782273,
+        "unmet_kwh": 0.0,
+        "objective_cny": 113.96672962782273,
+        "electricity_kwh": 175.42252330370522,
+        "peak_electric_kw": 10.194537397040312,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_40_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 40,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 113.96672962782274,
+        "unmet_kwh": 0.0,
+        "objective_cny": 113.96672962782274,
+        "electricity_kwh": 175.42252330370525,
+        "peak_electric_kw": 10.194537397040312,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_50_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 50,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 116.0984465770704,
+        "unmet_kwh": 0.0,
+        "objective_cny": 116.0984465770704,
+        "electricity_kwh": 174.2570857382242,
+        "peak_electric_kw": 10.072457713929484,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_50_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 50,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 113.06652653602654,
+        "unmet_kwh": 0.0,
+        "objective_cny": 113.06652653602654,
+        "electricity_kwh": 175.97081768808204,
+        "peak_electric_kw": 10.242765855247654,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_50_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 50,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 113.06652653602654,
+        "unmet_kwh": 0.0,
+        "objective_cny": 113.06652653602654,
+        "electricity_kwh": 175.97081768808204,
+        "peak_electric_kw": 10.242765855247654,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_60_rule_24_+0.00",
+      "scenario": "mild",
+      "volume": 60,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 116.0984465770704,
+        "unmet_kwh": 0.0,
+        "objective_cny": 116.0984465770704,
+        "electricity_kwh": 174.2570857382242,
+        "peak_electric_kw": 10.072457713929484,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_60_perfect_24_+0.00",
+      "scenario": "mild",
+      "volume": 60,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 113.06652653602654,
+        "unmet_kwh": 0.0,
+        "objective_cny": 113.06652653602654,
+        "electricity_kwh": 175.97081768808204,
+        "peak_electric_kw": 10.242765855247654,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "mild_60_mpc_24_+0.00",
+      "scenario": "mild",
+      "volume": 60,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 113.06652653602654,
+        "unmet_kwh": 0.0,
+        "objective_cny": 113.06652653602654,
+        "electricity_kwh": 175.97081768808204,
+        "peak_electric_kw": 10.242765855247654,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.185159035555883,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_0_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 0,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "hot_0_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 0,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "hot_0_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 0,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "hot_10_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 10,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 155.47923016539315,
+        "unmet_kwh": 19.58897683991295,
+        "objective_cny": 2114.376914156688,
+        "electricity_kwh": 204.18594178714466,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 4,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4344500235173756,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "hot_10_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 10,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 159.85039656333907,
+        "unmet_kwh": 0.0,
+        "objective_cny": 159.85039656333907,
+        "electricity_kwh": 208.1174714600933,
+        "peak_electric_kw": 11.475023290273164,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 2.6645352591003757e-15
+      }
+    },
+    {
+      "id": "hot_10_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 10,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 159.21634035128994,
+        "unmet_kwh": 2.822393429529228,
+        "objective_cny": 441.45568330421276,
+        "electricity_kwh": 207.54108276236445,
+        "peak_electric_kw": 11.435425707982088,
+        "unmet_hours": 1,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "hot_20_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 20,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 150.65087954426815,
+        "unmet_kwh": 7.581415974029383,
+        "objective_cny": 908.7924769472064,
+        "electricity_kwh": 207.82627676492453,
+        "peak_electric_kw": 11.364347659203434,
+        "unmet_hours": 2,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "hot_20_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 20,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 152.27166179084492,
+        "unmet_kwh": 0.0,
+        "objective_cny": 152.27166179084492,
+        "electricity_kwh": 209.32231003797807,
+        "peak_electric_kw": 11.430362246061273,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "hot_20_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 151.64650758314565,
+        "unmet_kwh": 2.822393429529228,
+        "objective_cny": 433.88585053606846,
+        "electricity_kwh": 208.77896804021512,
+        "peak_electric_kw": 11.401678712549087,
+        "unmet_hours": 1,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "hot_30_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 30,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 146.3499814497506,
+        "unmet_kwh": 2.9265450774375967,
+        "objective_cny": 439.00448919351027,
+        "electricity_kwh": 209.66583803510918,
+        "peak_electric_kw": 11.279038797571317,
+        "unmet_hours": 1,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.0658141036401503e-14
+      }
+    },
+    {
+      "id": "hot_30_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 30,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 145.94457789345904,
+        "unmet_kwh": 0.0,
+        "objective_cny": 145.94457789345904,
+        "electricity_kwh": 210.74177957508493,
+        "peak_electric_kw": 11.32293697373288,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_30_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 30,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 145.94674153283404,
+        "unmet_kwh": 0.0,
+        "objective_cny": 145.94674153283404,
+        "electricity_kwh": 210.74380615563095,
+        "peak_electric_kw": 11.202483482292953,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_40_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 40,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 146.3499814497506,
+        "unmet_kwh": 2.9265450774375967,
+        "objective_cny": 439.00448919351027,
+        "electricity_kwh": 209.66583803510918,
+        "peak_electric_kw": 11.279038797571317,
+        "unmet_hours": 1,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.0658141036401503e-14
+      }
+    },
+    {
+      "id": "hot_40_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 40,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 143.85888452269154,
+        "unmet_kwh": 0.0,
+        "objective_cny": 143.85888452269154,
+        "electricity_kwh": 211.8208801471054,
+        "peak_electric_kw": 11.024286436149753,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_40_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 40,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 143.85989260451888,
+        "unmet_kwh": 0.0,
+        "objective_cny": 143.85989260451888,
+        "electricity_kwh": 211.82179658513024,
+        "peak_electric_kw": 11.024286436149753,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_50_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 50,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 146.3499814497506,
+        "unmet_kwh": 2.9265450774375967,
+        "objective_cny": 439.00448919351027,
+        "electricity_kwh": 209.66583803510918,
+        "peak_electric_kw": 11.279038797571317,
+        "unmet_hours": 1,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.0658141036401503e-14
+      }
+    },
+    {
+      "id": "hot_50_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 50,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 143.85888452269154,
+        "unmet_kwh": 0.0,
+        "objective_cny": 143.85888452269154,
+        "electricity_kwh": 211.8208801471054,
+        "peak_electric_kw": 11.024286436149753,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_50_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 50,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 143.85989260451885,
+        "unmet_kwh": 0.0,
+        "objective_cny": 143.85989260451885,
+        "electricity_kwh": 211.82179658513024,
+        "peak_electric_kw": 11.024286436149753,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_60_rule_24_+0.00",
+      "scenario": "hot",
+      "volume": 60,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 146.3499814497506,
+        "unmet_kwh": 2.9265450774375967,
+        "objective_cny": 439.00448919351027,
+        "electricity_kwh": 209.66583803510918,
+        "peak_electric_kw": 11.279038797571317,
+        "unmet_hours": 1,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.0658141036401503e-14
+      }
+    },
+    {
+      "id": "hot_60_perfect_24_+0.00",
+      "scenario": "hot",
+      "volume": 60,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 143.85888452269154,
+        "unmet_kwh": 0.0,
+        "objective_cny": 143.85888452269154,
+        "electricity_kwh": 211.8208801471054,
+        "peak_electric_kw": 11.024286436149753,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "hot_60_mpc_24_+0.00",
+      "scenario": "hot",
+      "volume": 60,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 143.85989260451885,
+        "unmet_kwh": 0.0,
+        "objective_cny": 143.85989260451885,
+        "electricity_kwh": 211.82179658513024,
+        "peak_electric_kw": 11.024286436149753,
+        "unmet_hours": 0,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.4486521530162038,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "heatwave_0_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 0,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 179.17199295010818,
+        "unmet_kwh": 175.4325470150223,
+        "objective_cny": 17722.426694452337,
+        "electricity_kwh": 229.71861682380316,
+        "peak_electric_kw": 11.934768723506625,
+        "unmet_hours": 9,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "heatwave_0_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 0,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 179.17199295010818,
+        "unmet_kwh": 175.4325470150223,
+        "objective_cny": 17722.426694452337,
+        "electricity_kwh": 229.71861682380316,
+        "peak_electric_kw": 11.934768723506625,
+        "unmet_hours": 9,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "heatwave_0_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 0,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 179.17199295010818,
+        "unmet_kwh": 175.4325470150223,
+        "objective_cny": 17722.426694452337,
+        "electricity_kwh": 229.71861682380316,
+        "peak_electric_kw": 11.934768723506625,
+        "unmet_hours": 9,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "heatwave_10_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 10,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 179.63596258661,
+        "unmet_kwh": 140.30342632607898,
+        "objective_cny": 14209.978595194507,
+        "electricity_kwh": 238.5584962812983,
+        "peak_electric_kw": 12.170247834965997,
+        "unmet_hours": 8,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "heatwave_10_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 10,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 184.38577031125936,
+        "unmet_kwh": 119.60328553486531,
+        "objective_cny": 12144.714323797789,
+        "electricity_kwh": 242.87992766764108,
+        "peak_electric_kw": 12.170247834965997,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 1.7763568394002505e-15
+      }
+    },
+    {
+      "id": "heatwave_10_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 10,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 59.21666666666667,
+      "metrics": {
+        "electricity_cost_cny": 184.39883743531834,
+        "unmet_kwh": 119.60328553486531,
+        "objective_cny": 12144.727390921847,
+        "electricity_kwh": 242.91726230780964,
+        "peak_electric_kw": 12.170247834965997,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 3.552713678800501e-15
+      }
+    },
+    {
+      "id": "heatwave_20_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 184.27663293060172,
+        "unmet_kwh": 87.38646201760511,
+        "objective_cny": 8922.922834691113,
+        "electricity_kwh": 251.13715049430147,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 8,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_20_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.67608085605008,
+        "unmet_kwh": 64.03366520392564,
+        "objective_cny": 6593.042601248614,
+        "electricity_kwh": 256.13741159545197,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.680128954027,
+        "unmet_kwh": 64.03366520392566,
+        "objective_cny": 6593.046649346594,
+        "electricity_kwh": 256.1489775896717,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_30_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 30,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 184.67053807020645,
+        "unmet_kwh": 83.23225199424076,
+        "objective_cny": 8507.895737494282,
+        "electricity_kwh": 252.12906557099262,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 8,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_30_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 30,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 194.47321744809702,
+        "unmet_kwh": 34.21212258977572,
+        "objective_cny": 3615.6854764256686,
+        "electricity_kwh": 263.372479665103,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.200000000000001,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "heatwave_30_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 30,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 177.65,
+      "metrics": {
+        "electricity_cost_cny": 192.22838900845605,
+        "unmet_kwh": 43.63387718409165,
+        "objective_cny": 4555.616107417622,
+        "electricity_kwh": 261.3317265381567,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "heatwave_40_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 40,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 184.67053807020645,
+        "unmet_kwh": 83.23225199424076,
+        "objective_cny": 8507.895737494282,
+        "electricity_kwh": 252.12906557099262,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 8,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_40_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 40,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 194.47321744809702,
+        "unmet_kwh": 34.21212258977568,
+        "objective_cny": 3615.685476425665,
+        "electricity_kwh": 263.372479665103,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 2.4868995751603507e-14
+      }
+    },
+    {
+      "id": "heatwave_40_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 40,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 192.22838900845605,
+        "unmet_kwh": 43.63387718409165,
+        "objective_cny": 4555.616107417622,
+        "electricity_kwh": 261.3317265381567,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "heatwave_50_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 50,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 184.67053807020645,
+        "unmet_kwh": 83.23225199424076,
+        "objective_cny": 8507.895737494282,
+        "electricity_kwh": 252.12906557099262,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 8,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_50_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 50,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 194.47321744809702,
+        "unmet_kwh": 34.212122589775674,
+        "objective_cny": 3615.685476425664,
+        "electricity_kwh": 263.372479665103,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-14
+      }
+    },
+    {
+      "id": "heatwave_50_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 50,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 296.0833333333333,
+      "metrics": {
+        "electricity_cost_cny": 192.22838900845605,
+        "unmet_kwh": 43.63387718409165,
+        "objective_cny": 4555.616107417622,
+        "electricity_kwh": 261.3317265381567,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "heatwave_60_rule_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 60,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 184.67053807020645,
+        "unmet_kwh": 83.23225199424076,
+        "objective_cny": 8507.895737494282,
+        "electricity_kwh": 252.12906557099262,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 8,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_60_perfect_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 60,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 194.47321744809702,
+        "unmet_kwh": 34.212122589775674,
+        "objective_cny": 3615.685476425664,
+        "electricity_kwh": 263.372479665103,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-14
+      }
+    },
+    {
+      "id": "heatwave_60_mpc_24_+0.00",
+      "scenario": "heatwave",
+      "volume": 60,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 355.3,
+      "metrics": {
+        "electricity_cost_cny": 192.22838900845605,
+        "unmet_kwh": 43.63387718409165,
+        "objective_cny": 4555.616107417622,
+        "electricity_kwh": 261.3317265381567,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 1.4210854715202004e-14
+      }
+    },
+    {
+      "id": "quality_0_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 0,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_0_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 0,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_0_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 0,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 0.0,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_10_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 10,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 39.477777777777774,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_10_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 10,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 39.477777777777774,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_10_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 10,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 39.477777777777774,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_20_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 20,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 78.95555555555555,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_20_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 20,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 78.95555555555555,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_20_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 78.95555555555555,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_30_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 30,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_30_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 30,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_30_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 30,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_40_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 40,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 157.9111111111111,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_40_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 40,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 157.9111111111111,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_40_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 40,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 157.9111111111111,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_50_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 50,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 197.38888888888889,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_50_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 50,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 197.38888888888889,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_50_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 50,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 197.38888888888889,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_60_rule_24_+0.00",
+      "scenario": "quality",
+      "volume": 60,
+      "policy": "rule",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_60_perfect_24_+0.00",
+      "scenario": "quality",
+      "volume": 60,
+      "policy": "perfect",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "quality_60_mpc_24_+0.00",
+      "scenario": "quality",
+      "volume": 60,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.0,
+      "capacity_kwh": 236.86666666666667,
+      "metrics": {
+        "electricity_cost_cny": 160.235093478556,
+        "unmet_kwh": 31.694309054918392,
+        "objective_cny": 3329.6659989703953,
+        "electricity_kwh": 200.3923241347216,
+        "peak_electric_kw": 11.402687533760197,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 2.192982456140351,
+        "max_balance_residual_kwh": 0.0
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_6_-0.15",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 6,
+      "bias": -0.15,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 187.62314367092102,
+        "unmet_kwh": 88.3992560698116,
+        "objective_cny": 9027.54875065208,
+        "electricity_kwh": 250.3290149261354,
+        "peak_electric_kw": 12.258611431842018,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.993605777301127e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_6_+0.00",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 6,
+      "bias": 0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 187.62314367092102,
+        "unmet_kwh": 88.39925606981161,
+        "objective_cny": 9027.548750652082,
+        "electricity_kwh": 250.3290149261354,
+        "peak_electric_kw": 12.258611431842018,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2000000000000006,
+        "max_balance_residual_kwh": 7.993605777301127e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_6_+0.15",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 6,
+      "bias": 0.15,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 187.62314367092102,
+        "unmet_kwh": 88.3992560698116,
+        "objective_cny": 9027.54875065208,
+        "electricity_kwh": 250.3290149261354,
+        "peak_electric_kw": 12.258611431842018,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.993605777301127e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_12_-0.15",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 12,
+      "bias": -0.15,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.66155950591383,
+        "unmet_kwh": 67.17252326349143,
+        "objective_cny": 6906.913885855057,
+        "electricity_kwh": 255.46081393577174,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 8.881784197001252e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_12_+0.00",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 12,
+      "bias": 0,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.680128954027,
+        "unmet_kwh": 64.03366520392566,
+        "objective_cny": 6593.046649346594,
+        "electricity_kwh": 256.1489775896717,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_12_+0.15",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 12,
+      "bias": 0.15,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.680128954027,
+        "unmet_kwh": 64.03366520392566,
+        "objective_cny": 6593.046649346594,
+        "electricity_kwh": 256.1489775896717,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2000000000000006,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_24_-0.15",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": -0.15,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.66155950591383,
+        "unmet_kwh": 67.17252326349143,
+        "objective_cny": 6906.913885855057,
+        "electricity_kwh": 255.46081393577174,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "heatwave_20_mpc_24_+0.15",
+      "scenario": "heatwave",
+      "volume": 20,
+      "policy": "mpc",
+      "horizon": 24,
+      "bias": 0.15,
+      "capacity_kwh": 118.43333333333334,
+      "metrics": {
+        "electricity_cost_cny": 189.680128954027,
+        "unmet_kwh": 64.03366520392566,
+        "objective_cny": 6593.046649346594,
+        "electricity_kwh": 256.1489775896717,
+        "peak_electric_kw": 12.313608723506626,
+        "unmet_hours": 6,
+        "end_inventory_kwh": 0.0,
+        "max_supply_c": 6.000000000000001,
+        "max_loop_flow_kg_s": 3.2000000000000006,
+        "max_balance_residual_kwh": 7.105427357601002e-15
+      }
+    }
+  ]
+}

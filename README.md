@@ -1,5 +1,13 @@
 # AI储能实践 · 电池与热储能
 
+## 第5章新增：储冷容量配置与滚动控制
+
+[代码与复现说明](chapters/ch05/README.md) · [离线交互演示](demo/ch05/教学演示.html) · [Notebook](chapters/ch05/ch05_walkthrough.ipynb) · [课堂讲义](docs/ch05/课堂讲义.md)
+
+围绕W-C1-P比较七个储罐容积、三种策略、供水温度资格与预测窗口。提供113组可复算方案、八幅精细代码彩图、逐时回放和CSV/SVG导出；全部数据由方程构造。费用与未满足冷量分别呈现，便于理解容量、产冷和输配能力的共同作用。
+
+![第五章容量与服务比较](assets/ch05/fig5_6_sizing.png)
+
 ## 第4章新增：储热动态辨识与状态估计
 
 [代码与复现说明](chapters/ch04/README.md) · [离线交互演示](demo/ch04/教学演示.html) · [Notebook](chapters/ch04/ch04_walkthrough.ipynb) · [课堂讲义](docs/ch04/课堂讲义.md)
