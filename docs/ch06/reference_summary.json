@@ -1,0 +1,714 @@
+{
+  "chapter": 6,
+  "version": "0.1.0",
+  "source": "constructed teaching model and data",
+  "config": {
+    "volume_max": 1152000.0,
+    "area_upper": 48000.0,
+    "area_lower": 72000.0,
+    "head_base": 200.0,
+    "head_ref": 220.0,
+    "loss_coeff": 0.001,
+    "pump_max": 150.0,
+    "gen_max": 120.0,
+    "ramp": 65.0,
+    "flow_step": 20.0,
+    "flow_max": 60.0,
+    "dt": 1.0,
+    "initial_volume": 576000.0,
+    "rho": 1000.0,
+    "gravity": 9.81
+  },
+  "runs": [
+    {
+      "id": "typical_rule_q20_r65_h200",
+      "scenario": "typical",
+      "policy": "rule",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 218074.7898081484,
+        "pump_energy_mwh": 452.62237128126117,
+        "generation_energy_mwh": 368.09203101767577,
+        "energy_output_input_ratio": 0.8132431235683268,
+        "round_trip_efficiency": 0.8132431235683268,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 4.23792,
+        "conversion_loss_mwh": 80.2924202635854,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 218074.7898081484
+    },
+    {
+      "id": "typical_fixed_q20_r65_h200",
+      "scenario": "typical",
+      "policy": "fixed",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 259185.49812634464,
+        "pump_energy_mwh": 661.0537930008759,
+        "generation_energy_mwh": 530.899423302832,
+        "energy_output_input_ratio": 0.8031107739247607,
+        "round_trip_efficiency": 0.8031107739247607,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 7.22016,
+        "conversion_loss_mwh": 122.93420969804387,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 254591.34359999996
+    },
+    {
+      "id": "typical_head_q20_r65_h200",
+      "scenario": "typical",
+      "policy": "head",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 242800.84232409066,
+        "pump_energy_mwh": 612.466135449396,
+        "generation_energy_mwh": 496.31812782890626,
+        "energy_output_input_ratio": 0.8103601147918712,
+        "round_trip_efficiency": 0.8103601147918712,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 5.65056,
+        "conversion_loss_mwh": 110.49744762048981,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 240825.223153
+    },
+    {
+      "id": "typical_full_q20_r65_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 259185.49812634464,
+        "pump_energy_mwh": 661.0537930008759,
+        "generation_energy_mwh": 530.899423302832,
+        "energy_output_input_ratio": 0.8031107739247607,
+        "round_trip_efficiency": 0.8031107739247607,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 7.22016,
+        "conversion_loss_mwh": 122.93420969804387,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 259185.49812634464
+    },
+    {
+      "id": "flat_rule_q20_r65_h200",
+      "scenario": "flat",
+      "policy": "rule",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "flat_fixed_q20_r65_h200",
+      "scenario": "flat",
+      "policy": "fixed",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "flat_head_q20_r65_h200",
+      "scenario": "flat",
+      "policy": "head",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "flat_full_q20_r65_h200",
+      "scenario": "flat",
+      "policy": "full",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "solar_rule_q20_r65_h200",
+      "scenario": "solar",
+      "policy": "rule",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 251232.40844820836,
+        "pump_energy_mwh": 506.4424527383484,
+        "generation_energy_mwh": 405.7839031341797,
+        "energy_output_input_ratio": 0.8012438549337538,
+        "round_trip_efficiency": 0.8012438549337538,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 5.807519999999999,
+        "conversion_loss_mwh": 94.85102960416866,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 251232.40844820836
+    },
+    {
+      "id": "solar_fixed_q20_r65_h200",
+      "scenario": "solar",
+      "policy": "fixed",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 414413.3199737874,
+        "pump_energy_mwh": 700.8235751059071,
+        "generation_energy_mwh": 563.6935500292968,
+        "energy_output_input_ratio": 0.804330176741147,
+        "round_trip_efficiency": 0.804330176741147,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 9.260639999999999,
+        "conversion_loss_mwh": 127.86938507661024,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 1,
+        "max_ramp_mw": 56.058060959343024
+      },
+      "predicted_profit_cny": 400181.5972
+    },
+    {
+      "id": "solar_head_q20_r65_h200",
+      "scenario": "solar",
+      "policy": "head",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 397382.4437925628,
+        "pump_energy_mwh": 699.6290695008149,
+        "generation_energy_mwh": 566.4460999921874,
+        "energy_output_input_ratio": 0.8096377418913518,
+        "round_trip_efficiency": 0.8096377418913518,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 7.848,
+        "conversion_loss_mwh": 125.33496950862741,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 1,
+        "max_ramp_mw": 56.79498452972307
+      },
+      "predicted_profit_cny": 393939.704679
+    },
+    {
+      "id": "solar_full_q20_r65_h200",
+      "scenario": "solar",
+      "policy": "full",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 403244.5903461978,
+        "pump_energy_mwh": 760.032931877,
+        "generation_energy_mwh": 613.2119615305664,
+        "energy_output_input_ratio": 0.8068228833402783,
+        "round_trip_efficiency": 0.8068228833402783,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 8.47584,
+        "conversion_loss_mwh": 138.3451303464337,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 403244.5903461978
+    },
+    {
+      "id": "lowwater_rule_q20_r65_h200",
+      "scenario": "lowwater",
+      "policy": "rule",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 253535.63830231148,
+        "pump_energy_mwh": 543.8021980671783,
+        "generation_energy_mwh": 435.36213232998045,
+        "energy_output_input_ratio": 0.800589136780573,
+        "round_trip_efficiency": 0.800589136780573,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 7.848,
+        "conversion_loss_mwh": 100.59206573719791,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 56.058060959343024
+      },
+      "predicted_profit_cny": 253535.63830231148
+    },
+    {
+      "id": "lowwater_fixed_q20_r65_h200",
+      "scenario": "lowwater",
+      "policy": "fixed",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 319682.4228487752,
+        "pump_energy_mwh": 810.3905219300129,
+        "generation_energy_mwh": 641.9843622632812,
+        "energy_output_input_ratio": 0.7921913508247131,
+        "round_trip_efficiency": 0.7921913508247131,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 12.870719999999999,
+        "conversion_loss_mwh": 155.53543966673178,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 1,
+        "max_ramp_mw": 56.058060959343024
+      },
+      "predicted_profit_cny": 322309.9044
+    },
+    {
+      "id": "lowwater_head_q20_r65_h200",
+      "scenario": "lowwater",
+      "policy": "head",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 295551.86634417076,
+        "pump_energy_mwh": 749.426871310609,
+        "generation_energy_mwh": 602.8164875100586,
+        "energy_output_input_ratio": 0.8043699933735282,
+        "round_trip_efficiency": 0.8043699933735282,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 9.88848,
+        "conversion_loss_mwh": 136.72190380055048,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 56.058060959343024
+      },
+      "predicted_profit_cny": 295235.145771
+    },
+    {
+      "id": "lowwater_full_q20_r65_h200",
+      "scenario": "lowwater",
+      "policy": "full",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 306726.4481065219,
+        "pump_energy_mwh": 803.2003545592938,
+        "generation_energy_mwh": 640.5945515894531,
+        "energy_output_input_ratio": 0.7975526255101562,
+        "round_trip_efficiency": 0.7975526255101562,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 11.458079999999999,
+        "conversion_loss_mwh": 151.1477229698408,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 56.058060959343024
+      },
+      "predicted_profit_cny": 306726.4481065219
+    },
+    {
+      "id": "derated_rule_q20_r65_h200",
+      "scenario": "derated",
+      "policy": "rule",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 218074.7898081484,
+        "pump_energy_mwh": 452.62237128126117,
+        "generation_energy_mwh": 368.09203101767577,
+        "energy_output_input_ratio": 0.8132431235683268,
+        "round_trip_efficiency": 0.8132431235683268,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 4.23792,
+        "conversion_loss_mwh": 80.2924202635854,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 218074.7898081484
+    },
+    {
+      "id": "derated_fixed_q20_r65_h200",
+      "scenario": "derated",
+      "policy": "fixed",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 241583.62548667862,
+        "pump_energy_mwh": 658.2470445246919,
+        "generation_energy_mwh": 533.4224012551758,
+        "energy_output_input_ratio": 0.8103680915732031,
+        "round_trip_efficiency": 0.8103680915732031,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 5.807519999999999,
+        "conversion_loss_mwh": 119.01712326951606,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 233380.554
+    },
+    {
+      "id": "derated_head_q20_r65_h200",
+      "scenario": "derated",
+      "policy": "head",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 242800.84232409066,
+        "pump_energy_mwh": 612.466135449396,
+        "generation_energy_mwh": 496.31812782890626,
+        "energy_output_input_ratio": 0.8103601147918712,
+        "round_trip_efficiency": 0.8103601147918712,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 5.65056,
+        "conversion_loss_mwh": 110.49744762048981,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 240825.223153
+    },
+    {
+      "id": "derated_full_q20_r65_h200",
+      "scenario": "derated",
+      "policy": "full",
+      "group": "scenario",
+      "metrics": {
+        "profit_cny": 242800.84232409066,
+        "pump_energy_mwh": 612.466135449396,
+        "generation_energy_mwh": 496.31812782890626,
+        "energy_output_input_ratio": 0.8103601147918712,
+        "round_trip_efficiency": 0.8103601147918712,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 5.65056,
+        "conversion_loss_mwh": 110.49744762048981,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 242800.84232409066
+    },
+    {
+      "id": "typical_full_q20_r40_h180",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "typical_full_q20_r65_h180",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 236548.3154312612,
+        "pump_energy_mwh": 603.1774830428851,
+        "generation_energy_mwh": 485.09779787314454,
+        "energy_output_input_ratio": 0.804237246101998,
+        "round_trip_efficiency": 0.804237246101998,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 7.22016,
+        "conversion_loss_mwh": 110.85952516974058,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 48.587657551479836
+      },
+      "predicted_profit_cny": 236548.3154312612
+    },
+    {
+      "id": "typical_full_q20_r100_h180",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 272344.5714987998,
+        "pump_energy_mwh": 782.388299673953,
+        "generation_energy_mwh": 625.95605205791,
+        "energy_output_input_ratio": 0.800058043197689,
+        "round_trip_efficiency": 0.800058043197689,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 15.382079999999998,
+        "conversion_loss_mwh": 141.05016761604296,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 94.50218565908115
+      },
+      "predicted_profit_cny": 272344.5714987998
+    },
+    {
+      "id": "typical_full_q20_r40_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "typical_full_q20_r100_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 280901.03525038564,
+        "pump_energy_mwh": 805.9474599846014,
+        "generation_energy_mwh": 649.7512393113282,
+        "energy_output_input_ratio": 0.8061955295742758,
+        "round_trip_efficiency": 0.8061955295742758,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 10.9872,
+        "conversion_loss_mwh": 145.20902067327333,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 94.50218565908115
+      },
+      "predicted_profit_cny": 280901.03525038564
+    },
+    {
+      "id": "typical_full_q20_r40_h220",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 0.0,
+        "pump_energy_mwh": -0.0,
+        "generation_energy_mwh": 0.0,
+        "energy_output_input_ratio": null,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 0.0,
+        "conversion_loss_mwh": 0.0,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 0.0
+      },
+      "predicted_profit_cny": 0.0
+    },
+    {
+      "id": "typical_full_q20_r65_h220",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 243058.90065736038,
+        "pump_energy_mwh": 690.407022740584,
+        "generation_energy_mwh": 523.3388224851562,
+        "energy_output_input_ratio": 0.7580149176463367,
+        "round_trip_efficiency": 0.7580149176463367,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 5.65056,
+        "conversion_loss_mwh": 161.41764025542767,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 61.35604836314784
+      },
+      "predicted_profit_cny": 243058.90065736038
+    },
+    {
+      "id": "typical_full_q20_r100_h220",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "sensitivity",
+      "metrics": {
+        "profit_cny": 260988.38091033918,
+        "pump_energy_mwh": 855.0258506422722,
+        "generation_energy_mwh": 657.3468771571289,
+        "energy_output_input_ratio": 0.7688035123889504,
+        "round_trip_efficiency": 0.7688035123889504,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 8.004959999999999,
+        "conversion_loss_mwh": 189.67401348514332,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 88.9733232140625
+      },
+      "predicted_profit_cny": 260988.38091033918
+    },
+    {
+      "id": "typical_full_q10_r40_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "grid",
+      "metrics": {
+        "profit_cny": 190942.1444937729,
+        "pump_energy_mwh": 487.80045780203136,
+        "generation_energy_mwh": 385.8526981103577,
+        "energy_output_input_ratio": 0.7910051988244585,
+        "round_trip_efficiency": 0.7910051988244585,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 2.78604,
+        "conversion_loss_mwh": 99.16171969167368,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 38.776968000000004
+      },
+      "predicted_profit_cny": 190942.1444937729
+    },
+    {
+      "id": "typical_full_q10_r65_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "grid",
+      "metrics": {
+        "profit_cny": 269639.481315193,
+        "pump_energy_mwh": 737.4474457538726,
+        "generation_energy_mwh": 591.694414098761,
+        "energy_output_input_ratio": 0.8023546864331298,
+        "round_trip_efficiency": 0.8023546864331298,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 9.2214,
+        "conversion_loss_mwh": 136.5316316551115,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 64.90148399137573
+      },
+      "predicted_profit_cny": 269639.481315193
+    },
+    {
+      "id": "typical_full_q5_r40_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "grid",
+      "metrics": {
+        "profit_cny": 225895.50079250362,
+        "pump_energy_mwh": 565.930385521406,
+        "generation_energy_mwh": 450.492884277855,
+        "energy_output_input_ratio": 0.7960217295326959,
+        "round_trip_efficiency": 0.7960217295326959,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 4.3237575,
+        "conversion_loss_mwh": 111.11374374355108,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 39.73843834013673
+      },
+      "predicted_profit_cny": 225895.50079250362
+    },
+    {
+      "id": "typical_full_q5_r65_h200",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "grid",
+      "metrics": {
+        "profit_cny": 276661.90136669297,
+        "pump_energy_mwh": 750.1495525583603,
+        "generation_energy_mwh": 601.2390135940763,
+        "energy_output_input_ratio": 0.8014921978471765,
+        "round_trip_efficiency": 0.8014921978471765,
+        "delta_storage_mwh": 0.0,
+        "hydraulic_loss_mwh": 10.6217775,
+        "conversion_loss_mwh": 138.28876146428402,
+        "end_volume_error_m3": 0.0,
+        "violation_count": 0,
+        "max_ramp_mw": 64.73650896346207
+      },
+      "predicted_profit_cny": 276661.90136669297
+    },
+    {
+      "id": "typical_full_q20_r65_h200_free_terminal",
+      "scenario": "typical",
+      "policy": "full",
+      "group": "free_terminal",
+      "metrics": {
+        "profit_cny": 454184.3769638728,
+        "pump_energy_mwh": 609.659386973212,
+        "generation_energy_mwh": 782.1506098511719,
+        "energy_output_input_ratio": 1.2829304798115724,
+        "round_trip_efficiency": null,
+        "delta_storage_mwh": -329.616,
+        "hydraulic_loss_mwh": 11.458079999999999,
+        "conversion_loss_mwh": 145.66669712204015,
+        "end_volume_error_m3": -576000.0,
+        "violation_count": 0,
+        "max_ramp_mw": 53.82008145708717
+      },
+      "predicted_profit_cny": 454184.3769638728
+    }
+  ],
+  "failures": [
+    {
+      "case": "one_hour_unreachable_terminal",
+      "config": {
+        "volume_max": 1152000.0,
+        "area_upper": 48000.0,
+        "area_lower": 72000.0,
+        "head_base": 200.0,
+        "head_ref": 220.0,
+        "loss_coeff": 0.001,
+        "pump_max": 150.0,
+        "gen_max": 120.0,
+        "ramp": 65.0,
+        "flow_step": 20.0,
+        "flow_max": 60.0,
+        "dt": 1.0,
+        "initial_volume": 576000.0,
+        "rho": 1000.0,
+        "gravity": 9.81
+      },
+      "hours": 1,
+      "terminal_volume": 1152000.0,
+      "result": {
+        "status": "infeasible",
+        "evaluated_edges": 2,
+        "flow": [],
+        "objective_cny": null
+      }
+    }
+  ]
+}

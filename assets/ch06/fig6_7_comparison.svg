@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="288pt" viewBox="0 0 540 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T12:04:48.967377</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 540 288 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 65.90024 245.871774 
+L 329.836976 245.871774 
+L 329.836976 22.97874 
+L 65.90024 22.97874 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p998da9fc43)">
+    <image xlink:href="data:image/png;base64,
+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" id="image7c69770105" transform="scale(1 -1) translate(0 -223.2)" x="65.90024" y="-22.671774" width="264" height="223.2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 172.530681 79.816464 
+L 223.206535 79.816464 
+L 223.206535 133.310792 
+L 172.530681 133.310792 
+L 172.530681 79.816464 
+z
+" clip-path="url(#p998da9fc43)" style="fill: none; stroke: #bb4d4d; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 225.318029 79.816464 
+L 275.993882 79.816464 
+L 275.993882 133.310792 
+L 225.318029 133.310792 
+L 225.318029 79.816464 
+z
+" clip-path="url(#p998da9fc43)" style="fill: none; stroke: #bb4d4d; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 172.530681 135.539722 
+L 223.206535 135.539722 
+L 223.206535 189.03405 
+L 172.530681 189.03405 
+L 172.530681 135.539722 
+z
+" clip-path="url(#p998da9fc43)" style="fill: none; stroke: #bb4d4d; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mc74f29f9b3" d="M 0 0 
+L 0 3 
+" style="stroke: #5c7181; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="92.293914" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="92.293914" y="259.256774" transform="rotate(-0 92.293914 259.256774)">峰谷</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="145.081261" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="145.081261" y="259.256774" transform="rotate(-0 145.081261 259.256774)">平价</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="197.868608" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="197.868608" y="259.256774" transform="rotate(-0 197.868608 259.256774)">午间低价</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="250.655955" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="250.655955" y="259.256774" transform="rotate(-0 250.655955 259.256774)">低水位</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="303.443303" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="303.443303" y="259.256774" transform="rotate(-0 303.443303 259.256774)">降额</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m89768bdaee" d="M 0 0 
+L -3 0 
+" style="stroke: #5c7181; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m89768bdaee" x="65.90024" y="50.840369" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="59.40024" y="54.647369" transform="rotate(-0 59.40024 54.647369)">阈值规则</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m89768bdaee" x="65.90024" y="106.563628" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="59.40024" y="110.370628" transform="rotate(-0 59.40024 110.370628)">定参数规划</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m89768bdaee" x="65.90024" y="162.286886" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="59.40024" y="166.093886" transform="rotate(-0 59.40024 166.093886)">变水头定效率</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m89768bdaee" x="65.90024" y="218.010145" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="59.40024" y="221.817145" transform="rotate(-0 59.40024 221.817145)">变水头变效率</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 65.90024 245.871774 
+L 65.90024 22.97874 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 329.836976 245.871774 
+L 329.836976 22.97874 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 65.90024 245.871774 
+L 329.836976 245.871774 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 65.90024 22.97874 
+L 329.836976 22.97874 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="92.293914" y="53.88701" transform="rotate(-0 92.293914 53.88701)">21.81</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="145.081261" y="53.88701" transform="rotate(-0 145.081261 53.88701)">0.00</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.868608" y="53.88701" transform="rotate(-0 197.868608 53.88701)">25.12</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="250.655955" y="53.88701" transform="rotate(-0 250.655955 53.88701)">25.35</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="303.443303" y="53.88701" transform="rotate(-0 303.443303 53.88701)">21.81</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="92.293914" y="109.610268" transform="rotate(-0 92.293914 109.610268)">25.92</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="145.081261" y="109.610268" transform="rotate(-0 145.081261 109.610268)">0.00</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.868608" y="109.610268" transform="rotate(-0 197.868608 109.610268)">41.44 *</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="250.655955" y="109.610268" transform="rotate(-0 250.655955 109.610268)">31.97 *</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="303.443303" y="109.610268" transform="rotate(-0 303.443303 109.610268)">24.16</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="92.293914" y="165.333527" transform="rotate(-0 92.293914 165.333527)">24.28</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="145.081261" y="165.333527" transform="rotate(-0 145.081261 165.333527)">0.00</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.868608" y="165.333527" transform="rotate(-0 197.868608 165.333527)">39.74 *</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="250.655955" y="165.333527" transform="rotate(-0 250.655955 165.333527)">29.56</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="303.443303" y="165.333527" transform="rotate(-0 303.443303 165.333527)">24.28</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="92.293914" y="221.056785" transform="rotate(-0 92.293914 221.056785)">25.92</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="145.081261" y="221.056785" transform="rotate(-0 145.081261 221.056785)">0.00</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.868608" y="221.056785" transform="rotate(-0 197.868608 221.056785)">40.32</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="250.655955" y="221.056785" transform="rotate(-0 250.655955 221.056785)">30.67</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="303.443303" y="221.056785" transform="rotate(-0 303.443303 221.056785)">24.28</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #bb4d4d" x="65.90024" y="283.76359" transform="rotate(-0 65.90024 283.76359)">* 红框：保留了物理回放越限记录</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="65.90024" y="12.97874" transform="rotate(-0 65.90024 12.97874)">(a)  回放净收益 / 万元</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 372.0393 245.871774 
+L 536.99976 245.871774 
+L 536.99976 22.97874 
+L 372.0393 22.97874 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pcd7d2ac6e3)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAVgAAAHRCAYAAAAv06FQAAAGfklEQVR4nO3WsW3CYBCAUYysVDBBWqbJ3hkiLTU0RIIuzhL+sPzrvQFOpys+3bQsP8uBIVy+vrdegRVMt6c7DuK49QIAoxJYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQUQWIB98cECRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwAJG5Gsz7TfeXsw/g8XvdegVW4oMFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsgMAC7IsPFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgIjAAkQEFiAisAARgQWICCxARGABIgILEBFYgMhcDeb9/j5Pzj6Aj9d56xVYiQ8WICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsQEViAiMACRAQWICKwABGBBYgILEBEYAEiAgsgsAD74oMFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgASICCxARWICIwAJEBBYgIrAAEYEFiAgsQERgAQ6Nfy73EW0xjOZgAAAAAElFTkSuQmCC" id="image11f50308c6" transform="scale(1 -1) translate(0 -223.2)" x="372.0393" y="-22.671774" width="165.12" height="223.2"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="399.53271" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="399.53271" y="259.985774" transform="rotate(-0 399.53271 259.985774)">40</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="454.51953" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="454.51953" y="259.985774" transform="rotate(-0 454.51953 259.985774)">65</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc74f29f9b3" x="509.50635" y="245.871774" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="509.50635" y="259.985774" transform="rotate(-0 509.50635 259.985774)">100</text>
+     </g>
+    </g>
+    <g id="text_35">
+     <text style="font-size: 10.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="454.51953" y="273.782962" transform="rotate(-0 454.51953 273.782962)">相邻小时变化上限 / MW</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m89768bdaee" x="372.0393" y="60.127579" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="365.5393" y="63.934579" transform="rotate(-0 365.5393 63.934579)">180</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m89768bdaee" x="372.0393" y="134.425257" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="365.5393" y="138.232257" transform="rotate(-0 365.5393 138.232257)">200</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m89768bdaee" x="372.0393" y="208.722935" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="365.5393" y="212.529935" transform="rotate(-0 365.5393 212.529935)">220</text>
+     </g>
+    </g>
+    <g id="text_39">
+     <text style="font-size: 10.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="344.558456" y="134.425257" transform="rotate(-90 344.558456 134.425257)">零有效库容毛水头 / m</text>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 372.0393 245.871774 
+L 372.0393 22.97874 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 536.99976 245.871774 
+L 536.99976 22.97874 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 372.0393 245.871774 
+L 536.99976 245.871774 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 372.0393 22.97874 
+L 536.99976 22.97874 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="399.53271" y="63.512735" transform="rotate(-0 399.53271 63.512735)">0.00</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="454.51953" y="63.512735" transform="rotate(-0 454.51953 63.512735)">23.65</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="509.50635" y="63.512735" transform="rotate(-0 509.50635 63.512735)">27.23</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="399.53271" y="137.810413" transform="rotate(-0 399.53271 137.810413)">0.00</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="454.51953" y="137.810413" transform="rotate(-0 454.51953 137.810413)">25.92</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="509.50635" y="137.810413" transform="rotate(-0 509.50635 137.810413)">28.09</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="399.53271" y="212.108091" transform="rotate(-0 399.53271 212.108091)">0.00</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="454.51953" y="212.108091" transform="rotate(-0 454.51953 212.108091)">24.31</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="509.50635" y="212.108091" transform="rotate(-0 509.50635 212.108091)">26.10</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="372.0393" y="12.97874" transform="rotate(-0 372.0393 12.97874)">(b)  水头与爬坡共同作用</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p998da9fc43">
+   <rect x="65.90024" y="22.97874" width="263.936736" height="222.893034"/>
+  </clipPath>
+  <clipPath id="pcd7d2ac6e3">
+   <rect x="372.0393" y="22.97874" width="164.96046" height="222.893034"/>
+  </clipPath>
+ </defs>
+</svg>
