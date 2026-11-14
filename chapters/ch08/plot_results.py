@@ -152,8 +152,20 @@ def main(out, font=None):
     for j, sc, title in [(0, "surge", "需求突增"), (1, "supply_cap", "突发供能受限")]:
         for pol, color, name in zip(POL, COL, NAMES):
             ca = case(sc, p=pol)
-            axs[0, j].plot(t, series(ca, "m_after"), color=color, lw=1.5, label=name)
-            axs[1, j].plot(t, series(ca, "shortage"), color=color, lw=1.4)
+            axs[0, j].plot(
+                np.r_[0, t + 0.25],
+                np.r_[ca["config"]["m0"], series(ca, "m_after")],
+                color=color,
+                lw=1.5,
+                label=name,
+            )
+            axs[1, j].step(
+                np.r_[t, 48],
+                np.r_[series(ca, "shortage"), series(ca, "shortage")[-1]],
+                where="post",
+                color=color,
+                lw=1.4,
+            )
         for ax in axs[:, j]:
             ax.axvspan(28, 44 if sc == "surge" else 38, color="#F5E9D9", zorder=-1)
             style(ax)
