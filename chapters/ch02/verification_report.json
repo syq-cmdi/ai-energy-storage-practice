@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checks_passed": 53,
+  "checks_passed": 61,
   "checks": [
     {
       "check": "1920 cycle records for 12 cells",
@@ -208,6 +208,38 @@
     },
     {
       "check": "cycle discontinuity rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle 1.5 rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle nan rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle inf rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle 0 rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle -1 rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle True rejected",
+      "passed": true
+    },
+    {
+      "check": "invalid cycle None rejected",
+      "passed": true
+    },
+    {
+      "check": "reference capacity must match the declared 2.0 Ah protocol",
       "passed": true
     },
     {

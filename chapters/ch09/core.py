@@ -176,6 +176,12 @@ class Index:
                 "sha256",
             }:
                 return False
+            if any(not isinstance(c[key], str) for key in ("metric", "unit", "chunk_id", "quote", "sha256")):
+                return False
+            if isinstance(c["value"], bool) or not isinstance(c["value"], (str, int, float)):
+                return False
+            if isinstance(c["value"], float) and not np.isfinite(c["value"]):
+                return False
             block = allowed.get(c["chunk_id"])
             if not block or not eligible(block["meta"], q) or not block["fact"]:
                 return False

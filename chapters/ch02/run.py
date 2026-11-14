@@ -93,7 +93,13 @@ def validate(rows):
     seen = set()
     last = {}
     for r in rows:
-        k = (r["cell_id"], int(r["cycle"]))
+        try:
+            cycle = float(r["cycle"])
+        except (TypeError, ValueError) as exc:
+            raise ValueError("cycle must be a finite positive integer") from exc
+        if isinstance(r["cycle"], (bool, np.bool_)) or not np.isfinite(cycle) or cycle < 1 or not cycle.is_integer():
+            raise ValueError("cycle must be a finite positive integer")
+        k = (r["cell_id"], int(cycle))
         if k in seen:
             raise ValueError("duplicate cell/cycle")
         seen.add(k)
@@ -110,6 +116,8 @@ def validate(rows):
                 raise ValueError("nonfinite " + f)
         if float(r["capacity_ah"]) <= 0 or float(r["reference_capacity_ah"]) <= 0:
             raise ValueError("nonpositive capacity")
+        if float(r["reference_capacity_ah"]) != 2.0:
+            raise ValueError("this constructed-data protocol uses a fixed 2.0 Ah reference capacity")
         if r["source_kind"] != "constructed":
             raise ValueError("this protocol expects constructed data")
 

@@ -150,6 +150,13 @@ with tempfile.TemporaryDirectory(prefix="practice_ch2_") as td:
     bad = copy.deepcopy(rows)
     bad[5]["cycle"] = 999
     reject("cycle discontinuity rejected", bad)
+    for value in [1.5, float("nan"), float("inf"), 0, -1, True, None]:
+        bad = copy.deepcopy(rows)
+        bad[0]["cycle"] = value
+        reject(f"invalid cycle {value!r} rejected", bad)
+    bad = copy.deepcopy(rows)
+    bad[0]["reference_capacity_ah"] = 2.1
+    reject("reference capacity must match the declared 2.0 Ah protocol", bad)
     try:
         run.run(out)
     except ValueError:

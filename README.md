@@ -1,4 +1,25 @@
-# AI储能实践 · 电池、热储能、机械储能与氢储能
+# AI储能实践配套教学代码
+
+本仓库配套实践篇第2—10章。第1章的标准库入门实验随书稿交付；各章数据均由作者构造，适用于课堂教学、方法比较与流程复算。
+
+## 按章节开始
+
+| 章节 | 实验任务 | 代码与运行说明 | 离线演示 |
+| --- | --- | --- | --- |
+| 2 | 电池状态与寿命标签 | [说明](chapters/ch02/README.md) | [演示](demo/教学演示.html) |
+| 3 | 异常检测与故障诊断 | [说明](chapters/ch03/README.md) | [演示](demo/ch03/教学演示.html) |
+| 4 | 储热辨识与状态估计 | [说明](chapters/ch04/README.md) | [演示](demo/ch04/教学演示.html) |
+| 5 | 储冷容量与滚动控制 | [说明](chapters/ch05/README.md) | [演示](demo/ch05/教学演示.html) |
+| 6 | 机械储能运行优化 | [说明](chapters/ch06/README.md) | [演示](demo/ch06/教学演示.html) |
+| 7 | 混合快速储能功率分配 | [说明](chapters/ch07/README.md) | [演示](demo/ch07/教学演示.html) |
+| 8 | 制储用氢协同运行 | [说明](chapters/ch08/README.md) | [演示](demo/ch08/教学演示.html) |
+| 9 | 运维知识助手 | [说明](chapters/ch09/README.md) | [演示](demo/ch09/教学演示.html) |
+| 10 | 动态学习与模型辅助控制 | [说明](chapters/ch10/README.md) | [演示](demo/ch10/index.html) |
+
+下载并解压后打开HTML即可体验离线演示。复算时按各章README的顺序生成结果、核验、绘图和更新演示；第7、8、10章的核验读取本次生成的结果，先运行对应的`run.py`。跨平台状态以[具体提交的Actions记录](https://github.com/syq-cmdi/ai-energy-storage-practice/actions)为依据。
+
+本轮全稿审校修复了第2章数据合同校验，并统一了运行说明与结果范围，详见[审校修订记录](docs/全稿审校修订记录.md)。
+
 
 ## 第10章新增：动态学习与模型辅助控制
 
@@ -113,7 +134,7 @@ node --test tests/demo.test.cjs
 
 统计图输出可编辑SVG、600 dpi PNG和PDF；原理图输出SVG。Linux需安装 `fonts-noto-cjk`，或用 `plot_results.py --font 字体文件路径` 指定中文字体。字体不随仓库分发。原理图也需系统中文字体才能正确显示。
 
-`build_demo.py` 从CSV/JSON复制数值到离线演示；SOH页面只读取保存的预测，绝不在浏览器中重新拟合。统计图和演示均来自同一份结果。Notebook见 [逐步教学笔记](notebooks/02_battery_state.ipynb)，课堂流程见 [课堂讲义](docs/课堂讲义.md)。
+`build_demo.py` 从CSV/JSON复制数值到离线演示；SOH页面读取已冻结并保存的预测。统计图和演示均来自同一份结果。Notebook见 [逐步教学笔记](notebooks/02_battery_state.ipynb)，课堂流程见 [课堂讲义](docs/课堂讲义.md)。
 
 ## 实验协议与结果
 
@@ -126,7 +147,7 @@ node --test tests/demo.test.cjs
 | 随机森林 | 0.233 | 0.292 |
 | 窗口前馈网络（三种子平均） | 0.186 | 0.231 |
 
-窗口网络在验证集被选中；其与岭回归的差异较小。C08校准的经验半宽为0.3775个百分点，四个测试电芯覆盖率为90.48%。**这是本次经验结果，不能作普遍覆盖保证。** 本实验有时间相关窗口、有限电芯数与明确的构造规律。
+窗口网络在验证集被选中；其与岭回归的差异较小。C08校准的经验半宽为0.3775个百分点，四个测试电芯覆盖率为90.48%。**该覆盖率描述当前四个测试电芯的经验表现；新电芯和新工况需要独立校准与评价。** 本实验有时间相关窗口、有限电芯数与明确的构造规律。
 
 ![冻结预测、局部放大与经验带](assets/figures/fig02_08_interval.png)
 
@@ -135,7 +156,7 @@ node --test tests/demo.test.cjs
 | 路径 | 用途 |
 |---|---|
 | `chapters/ch02/run.py` | 数据生成、窗口、训练选择、校准、冻结评价、保存 |
-| `chapters/ch02/verify.py` | 53项数值与信息边界检查 |
+| `chapters/ch02/verify.py` | 61项数值与信息边界检查 |
 | `chapters/ch02/config.json` | 分组、窗口、超参数、随机种子 |
 | `chapters/ch02/reference_results/` | 可核对的CSV、指标与SHA-256清单，不含模型二进制 |
 | `chapters/ch02/plot_results.py` | 三幅统计图的精细绘图源码 |
@@ -148,7 +169,7 @@ node --test tests/demo.test.cjs
 
 教学版本 **v0.1.0 / 2026-11-14**。数据定义见 [字段字典](chapters/ch02/data_dictionary.md)，外部数据扩展见 [来源登记](chapters/ch02/data_sources.md)，验证范围见 [验证说明](docs/验证说明.md)。
 
-作者：石玉琦。建议引用时注明“石玉琦，储能系统人工智能实践第2章配套教学代码，v0.1.0，2026”，附本仓库URL与实际使用的提交SHA。本仓库不对应已经正式出版的书籍版本，也没有虚构DOI。
+作者：石玉琦。建议引用时注明“石玉琦，储能系统人工智能实践第2章配套教学代码，v0.1.0，2026”，附本仓库URL与实际使用的提交SHA。本仓库配套正在撰写的教材，引用信息以作者、题名、仓库地址和实际提交SHA定位。
 
 本版本尚未授予开源许可证，详见 [RIGHTS.md](RIGHTS.md)。
 
