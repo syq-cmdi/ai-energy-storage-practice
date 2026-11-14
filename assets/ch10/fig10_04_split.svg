@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="316.8pt" viewBox="0 0 547.2 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 316.8 
+L 547.2 316.8 
+L 547.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 29.32992 111.99936 
+L 245.61072 111.99936 
+Q 251.717472 111.99936 251.717472 107.184 
+L 251.717472 79.0944 
+Q 251.717472 74.27904 245.61072 74.27904 
+L 29.32992 74.27904 
+Q 23.223168 74.27904 23.223168 79.0944 
+L 23.223168 107.184 
+Q 23.223168 111.99936 29.32992 111.99936 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #edf5fa; stroke: #367cb1; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 29.32992 158.14656 
+L 245.61072 158.14656 
+Q 251.717472 158.14656 251.717472 153.3312 
+L 251.717472 125.2416 
+Q 251.717472 120.42624 245.61072 120.42624 
+L 29.32992 120.42624 
+Q 23.223168 120.42624 23.223168 125.2416 
+L 23.223168 153.3312 
+Q 23.223168 158.14656 29.32992 158.14656 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #eaf7f3; stroke: #168b82; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 29.32992 204.29376 
+L 245.61072 204.29376 
+Q 251.717472 204.29376 251.717472 199.4784 
+L 251.717472 171.3888 
+Q 251.717472 166.57344 245.61072 166.57344 
+L 29.32992 166.57344 
+Q 23.223168 166.57344 23.223168 171.3888 
+L 23.223168 199.4784 
+Q 23.223168 204.29376 29.32992 204.29376 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #fff5e5; stroke: #c58b31; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 29.32992 250.44096 
+L 245.61072 250.44096 
+Q 251.717472 250.44096 251.717472 245.6256 
+L 251.717472 217.536 
+Q 251.717472 212.72064 245.61072 212.72064 
+L 29.32992 212.72064 
+Q 23.223168 212.72064 23.223168 217.536 
+L 23.223168 245.6256 
+Q 23.223168 250.44096 29.32992 250.44096 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #f3eff8; stroke: #8d70a8; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 370.29024 106.38144 
+L 512.78112 106.38144 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #dce5ec; stroke-width: 8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 370.29024 106.38144 
+L 512.78112 106.38144 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #367cb1; stroke-width: 8"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 370.29024 140.49024 
+L 512.78112 140.49024 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #dce5ec; stroke-width: 8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 383.01264 140.49024 
+L 394.88688 140.49024 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #168b82; stroke-width: 8"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 370.29024 174.59904 
+L 512.78112 174.59904 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #dce5ec; stroke-width: 8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 413.5464 174.59904 
+L 425.42064 174.59904 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #c58b31; stroke-width: 8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="34.41888" y="86.71872" transform="rotate(-0 34.41888 86.71872)">机理标定</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #367cb1" x="113.29776" y="86.71872" transform="rotate(-0 113.29776 86.71872)">2条 / 8 h</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="34.41888" y="103.1712" transform="rotate(-0 34.41888 103.1712)">240个区间；整条轨迹归属固定</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="34.41888" y="132.86592" transform="rotate(-0 34.41888 132.86592)">网络训练</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #168b82" x="113.29776" y="132.86592" transform="rotate(-0 113.29776 132.86592)">8条 / 48 h</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="34.41888" y="149.3184" transform="rotate(-0 34.41888 149.3184)">1440个区间；整条轨迹归属固定</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="34.41888" y="179.01312" transform="rotate(-0 34.41888 179.01312)">开发验证</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c58b31" x="113.29776" y="179.01312" transform="rotate(-0 113.29776 179.01312)">3条 / 18 h</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="34.41888" y="195.4656" transform="rotate(-0 34.41888 195.4656)">540个区间；整条轨迹归属固定</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="34.41888" y="225.16032" transform="rotate(-0 34.41888 225.16032)">冻结测试</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8d70a8" x="113.29776" y="225.16032" transform="rotate(-0 113.29776 225.16032)">4条 / 24 h</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="34.41888" y="241.6128" transform="rotate(-0 34.41888 241.6128)">720个区间；整条轨迹归属固定</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="283.77792" y="79.0944" transform="rotate(-0 283.77792 79.0944)">以一条6 h轨迹为例</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="283.77792" y="109.1904" transform="rotate(-0 283.77792 109.1904)">原始轨迹</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="283.77792" y="143.2992" transform="rotate(-0 283.77792 143.2992)">15步窗口 A</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.2px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="283.77792" y="177.408" transform="rotate(-0 283.77792 177.408)">15步窗口 B</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="370.29024" y="219.5424" transform="rotate(-0 370.29024 219.5424)">0</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="512.78112" y="219.5424" transform="rotate(-0 512.78112 219.5424)">6 h</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(283.77792 219.052625)">180个区间 → 181个温度状态</text>
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(283.77792 233.342313)">15步终点误差：每条166个窗口</text>
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(283.77792 247.632)">30步终点误差：每条151个窗口</text>
+   </g>
+  </g>
+  <g id="text_20">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="21.888" y="14.256" transform="rotate(-0 21.888 14.256)">按完整轨迹划分数据</text>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 9.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="21.888" y="34.848" transform="rotate(-0 21.888 34.848)">初始状态、随机种子、动作序列随轨迹整体分配；窗口只在所属轨迹内部展开</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p80fc71cc2c">
+   <rect x="19.152" y="57.024" width="508.896" height="240.768"/>
+  </clipPath>
+ </defs>
+</svg>

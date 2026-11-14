@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="316.8pt" viewBox="0 0 547.2 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 316.8 
+L 547.2 316.8 
+L 547.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 232.88832 253.6512 
+L 314.31168 253.6512 
+Q 342.30096 253.6512 342.30096 231.5808 
+L 342.30096 115.2096 
+Q 342.30096 93.1392 314.31168 93.1392 
+L 232.88832 93.1392 
+Q 204.89904 93.1392 204.89904 115.2096 
+L 204.89904 231.5808 
+Q 204.89904 253.6512 232.88832 253.6512 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #edf5fa; stroke: #367cb1; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 215.07696 227.568 
+L 332.12304 227.568 
+L 332.12304 125.2416 
+L 215.07696 125.2416 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #c7e6f0; opacity: 0.8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 26.78544 198.67584 
+L 141.28704 198.67584 
+Q 147.902688 198.67584 147.902688 193.4592 
+L 147.902688 121.2288 
+Q 147.902688 116.01216 141.28704 116.01216 
+L 26.78544 116.01216 
+Q 20.169792 116.01216 20.169792 121.2288 
+L 20.169792 193.4592 
+Q 20.169792 198.67584 26.78544 198.67584 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #fff5e5; stroke: #c58b31; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 150.919226 159.3504 
+Q 176.909202 159.3504 201.445733 159.3504 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #c58b31; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 196.645733 156.9504 
+L 201.445733 159.3504 
+L 196.645733 161.7504 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #c58b31; stroke: #c58b31; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 405.91296 174.59904 
+L 520.41456 174.59904 
+Q 527.030208 174.59904 527.030208 169.3824 
+L 527.030208 103.1712 
+Q 527.030208 97.95456 520.41456 97.95456 
+L 405.91296 97.95456 
+Q 399.297312 97.95456 399.297312 103.1712 
+L 399.297312 169.3824 
+Q 399.297312 174.59904 405.91296 174.59904 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #eaf7f3; stroke: #168b82; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 344.299706 141.2928 
+Q 370.289682 141.2928 394.826213 141.2928 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #168b82; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 390.026213 138.8928 
+L 394.826213 141.2928 
+L 390.026213 143.6928 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #168b82; stroke: #168b82; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 405.91296 284.95104 
+L 520.41456 284.95104 
+Q 527.030208 284.95104 527.030208 279.7344 
+L 527.030208 215.5296 
+Q 527.030208 210.31296 520.41456 210.31296 
+L 405.91296 210.31296 
+Q 399.297312 210.31296 399.297312 215.5296 
+L 399.297312 279.7344 
+Q 399.297312 284.95104 405.91296 284.95104 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #f3eff8; stroke: #8d70a8; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 344.16304 226.295753 
+Q 370.291483 236.59729 395.06778 246.365723 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #8d70a8; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 391.482605 242.372414 
+L 395.06778 246.365723 
+L 389.722028 246.837877 
+z
+" clip-path="url(#p80fc71cc2c)" style="fill: #8d70a8; stroke: #8d70a8; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 235.4328 235.5936 
+L 245.61072 223.5552 
+L 255.78864 235.5936 
+L 265.96656 223.5552 
+L 276.14448 235.5936 
+L 286.3224 223.5552 
+L 296.50032 235.5936 
+L 306.67824 223.5552 
+L 316.85616 235.5936 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #c58b31; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 28.821024 190.24896 
+L 28.821024 124.43904 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #c58b31; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 407.948544 166.17216 
+L 407.948544 106.38144 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #168b82; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 407.948544 276.52416 
+L 407.948544 218.73984 
+" clip-path="url(#p80fc71cc2c)" style="fill: none; stroke: #8d70a8; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="273.6" y="111.1968" transform="rotate(-0 273.6 111.1968)">充分混合水罐</text>
+   </g>
+   <g id="text_2">
+    <!-- 状态 $T_k$ -->
+    <g style="fill: #367cb1" transform="translate(248.85 159.3504)">
+     <text>
+      <tspan x="0" y="-0.65625" style="font-size: 15px; font-family: 'Heiti TC'; fill: #367cb1">状</tspan>
+      <tspan x="14.999985" y="-0.65625" style="font-size: 15px; font-family: 'Heiti TC'; fill: #367cb1">态</tspan>
+      <tspan x="29.999969" y="-0.65625" style="font-size: 15px; font-family: 'Heiti TC'; fill: #367cb1"> </tspan>
+      <tspan x="33.749954" y="-0.65625" style="font-style: oblique; font-size: 15px; font-family: 'DejaVu Sans'; fill: #367cb1">T</tspan>
+      <tspan x="42.912552" y="1.804688" style="font-style: oblique; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #367cb1">k</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="273.6" y="187.44" transform="rotate(-0 273.6 187.44)">热容 C / kJ/K</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="36.96336" y="137.36184" transform="rotate(-0 36.96336 137.36184)">可控动作</text>
+   </g>
+   <g id="text_5">
+    <!-- 加热功率 $u_k$ / kW -->
+    <g style="fill: #5c7181" transform="translate(36.96336 158.72096)">
+     <text>
+      <tspan x="0" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">加</tspan>
+      <tspan x="9.999985" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">热</tspan>
+      <tspan x="19.999969" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">功</tspan>
+      <tspan x="29.999954" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">率</tspan>
+      <tspan x="39.999939" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="53.164963" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="55.664948" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">/</tspan>
+      <tspan x="60.034943" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="62.534927" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">k</tspan>
+      <tspan x="67.554916" y="-0.40625" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">W</tspan>
+      <tspan x="42.499924" y="-0.40625" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">u</tspan>
+      <tspan x="48.837814" y="1.234375" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+     </text>
+    </g>
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(36.96336 172.97596)">保持一个离散步长</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #c58b31" x="176.90976" y="153.3312" transform="rotate(-0 176.90976 153.3312)">热输入</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="416.09088" y="119.30424" transform="rotate(-0 416.09088 119.30424)">环境与散热</text>
+   </g>
+   <g id="text_8">
+    <!-- 环境温度 $T_{a,k}$ -->
+    <g style="fill: #5c7181" transform="translate(416.09088 140.26336)">
+     <text>
+      <tspan x="0" y="-0.8125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">环</tspan>
+      <tspan x="9.999985" y="-0.8125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">境</tspan>
+      <tspan x="19.999969" y="-0.8125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">温</tspan>
+      <tspan x="29.999954" y="-0.8125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">度</tspan>
+      <tspan x="39.999939" y="-0.8125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="42.499924" y="-0.8125" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">T</tspan>
+      <tspan x="48.608322" y="0.828125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">a</tspan>
+      <tspan x="56.48674" y="0.828125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+      <tspan x="52.897873" y="0.828125" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">,</tspan>
+     </text>
+    </g>
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(416.09088 155.31836)">温差驱动热损失</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #168b82" x="370.29024" y="135.2736" transform="rotate(-0 370.29024 135.2736)">热流出</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="416.09088" y="231.66264" transform="rotate(-0 416.09088 231.66264)">下一步观测</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(416.09088 252.52176)">参考环境推进</text>
+    <!-- 得到 $T_{k+1}$ -->
+    <g style="fill: #5c7181" transform="translate(416.09088 266.406448)">
+     <text>
+      <tspan x="0" y="-0.953125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">得</tspan>
+      <tspan x="9.999985" y="-0.953125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">到</tspan>
+      <tspan x="19.999969" y="-0.953125" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="22.499954" y="-0.953125" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">T</tspan>
+      <tspan x="28.608353" y="0.6875" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+      <tspan x="34.025833" y="0.6875" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">+</tspan>
+      <tspan x="41.254837" y="0.6875" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- 教学记录：[$T_k$, $T_{a,k}$, $u_k$] → $T_{k+1}$ -->
+    <g style="fill: #5c7181" transform="translate(29.32992 260.2616)">
+     <text>
+      <tspan x="0" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">教</tspan>
+      <tspan x="9.999985" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">学</tspan>
+      <tspan x="19.999969" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">记</tspan>
+      <tspan x="29.999954" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">录</tspan>
+      <tspan x="39.999939" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">：</tspan>
+      <tspan x="49.999924" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">[</tspan>
+      <tspan x="63.945465" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">,</tspan>
+      <tspan x="66.715454" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="87.529404" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">,</tspan>
+      <tspan x="90.299393" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="103.464417" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">]</tspan>
+      <tspan x="106.974411" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="109.474396" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181">→</tspan>
+      <tspan x="119.47438" y="-0.609375" style="font-size: 10px; font-family: 'Heiti TC'; fill: #5c7181"> </tspan>
+      <tspan x="53.509918" y="-0.609375" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">T</tspan>
+      <tspan x="69.215439" y="-0.609375" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">T</tspan>
+      <tspan x="92.799377" y="-0.609375" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">u</tspan>
+      <tspan x="121.974365" y="-0.609375" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'; fill: #5c7181">T</tspan>
+      <tspan x="59.618317" y="1.03125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+      <tspan x="75.323837" y="1.03125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">a</tspan>
+      <tspan x="83.202255" y="1.03125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+      <tspan x="99.137268" y="1.03125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+      <tspan x="128.082764" y="1.03125" style="font-style: oblique; font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">k</tspan>
+      <tspan x="79.613388" y="1.03125" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">,</tspan>
+      <tspan x="133.500244" y="1.03125" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">+</tspan>
+      <tspan x="140.729248" y="1.03125" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #5c7181">1</tspan>
+     </text>
+    </g>
+    <text style="font-size: 10px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; fill: #5c7181" transform="translate(29.32992 275.7216)">完整轨迹保留初值、动作与环境条件</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="21.888" y="14.256" transform="rotate(-0 21.888 14.256)">W-H1：状态、动作与热量边界</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 9.5px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="21.888" y="34.848" transform="rotate(-0 21.888 34.848)">充分混合水体，无进出水；电加热功率是可控输入，环境温度是已知扰动</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p80fc71cc2c">
+   <rect x="19.152" y="57.024" width="508.896" height="240.768"/>
+  </clipPath>
+ </defs>
+</svg>

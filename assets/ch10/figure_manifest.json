@@ -1,0 +1,128 @@
+[
+  {
+    "file": "fig10_02_reference.png",
+    "title": "W-H1动态任务的状态、动作与热量边界",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_03_coverage.png",
+    "title": "训练样本覆盖与独立测试输入",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_04_split.png",
+    "title": "完整轨迹划分与轨迹内部预测窗口",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_05_models.png",
+    "title": "机理、纯数据与残差三类动作条件模型",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_06_errors.png",
+    "title": "不同测试轨迹的多步终点预测误差",
+    "width_px": 4560,
+    "height_px": 2880,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 89.1,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_07_planning.png",
+    "title": "候选动作评估、首项执行与滚动反馈",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_08_fallback.png",
+    "title": "候选筛选及高温工况的回退执行",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_09_closedloop.png",
+    "title": "实际闭环轨迹、动作与任务指标",
+    "width_px": 4560,
+    "height_px": 2940,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 90.9,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  },
+  {
+    "file": "fig10_10_ood.png",
+    "title": "高温误差及固定经验包络的测试覆盖",
+    "width_px": 4560,
+    "height_px": 2640,
+    "dpi": 600,
+    "recommended_word_width_mm": 141,
+    "recommended_word_height_mm": 81.6,
+    "formats": [
+      "png",
+      "svg",
+      "pdf"
+    ]
+  }
+]

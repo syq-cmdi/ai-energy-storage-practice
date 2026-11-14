@@ -1,5 +1,26 @@
 # AI储能实践 · 电池、热储能、机械储能与氢储能
 
+## 第10章新增：动态学习与模型辅助控制
+
+[代码与复现说明](chapters/ch10/README.md) · [离线交互演示](demo/ch10/index.html) · [已执行Notebook](chapters/ch10/ch10_walkthrough.ipynb) · [教学讲义](docs/ch10/教学讲义.md)
+
+以W-H1充分混合水罐连接动作条件建模、完整轨迹划分和滚动控制。17条作者构造轨迹、三类预测模型、15组闭环实验和9幅精细代码彩图；浏览器实时计算模型递推与验证经验包络，回放候选评分、回退及公共联锁，支持CSV导出。高温和扩展动作工况完整保留，预测误差、跟踪任务与执行事件分别报告。
+
+![第十章闭环对照](assets/ch10/fig10_09_closedloop.png)
+
+完成下方项目环境安装后，在仓库根目录复现本章：
+
+```sh
+python chapters/ch10/run.py
+python chapters/ch10/verify.py
+python chapters/ch10/plot_results.py
+python chapters/ch10/build_demo.py
+node --test tests/ch10.test.cjs
+```
+
+打开 `demo/ch10/index.html` 可离线运行。图件提供600 dpi PNG及SVG/PDF矢量版本；6单元Notebook包含实际训练、模型预测、候选规划和回退演示。本章的预测与控制实验采用精确参考状态和已知未来外部输入，应用范围详见[模型卡](chapters/ch10/model_card.md)。
+
+
 ## 第8章新增：制储用氢系统协同运行
 
 [代码与复现说明](chapters/ch08/README.md) · [离线交互演示](demo/ch08/教学演示.html) · [Notebook](chapters/ch08/ch08_walkthrough.ipynb) · [课堂讲义](docs/ch08/课堂讲义.md)

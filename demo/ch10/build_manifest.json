@@ -1,0 +1,10 @@
+{
+  "title": "动态学习与模型辅助控制",
+  "source_sha256": "1ad24eccf6879d6f3a387b98c16463004cfbbc4a3c15175cb862aaf4f7ed07fb",
+  "html_sha256": "0c78971e51241c88e261b895927a47355d1b91b97da271cb1db353ef4448219d",
+  "episodes": 17,
+  "control_runs": 15,
+  "offline": true,
+  "computation": "exported tanh model forward pass; actual Python control replay",
+  "rights": "../../RIGHTS.md"
+}
