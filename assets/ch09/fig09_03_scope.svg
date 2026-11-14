@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="612pt" height="345.6pt" viewBox="0 0 612 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 612 345.6 
+L 612 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 110.16 162.432 
+L 587.52 162.432 
+L 587.52 51.84 
+L 110.16 51.84 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 110.16 162.432 
+L 110.16 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke: #dce5ec; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m550418b9ce" d="M 0 0 
+L 0 3 
+" style="stroke: #5c7181; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m550418b9ce" x="110.16" y="162.432" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="110.16" y="177.046" transform="rotate(-0 110.16 177.046)">2026-01</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 229.5 162.432 
+L 229.5 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke: #dce5ec; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m550418b9ce" x="229.5" y="162.432" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="229.5" y="177.046" transform="rotate(-0 229.5 177.046)">07</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 289.17 162.432 
+L 289.17 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke: #dce5ec; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m550418b9ce" x="289.17" y="162.432" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="289.17" y="177.046" transform="rotate(-0 289.17 177.046)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 348.84 162.432 
+L 348.84 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke: #dce5ec; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m550418b9ce" x="348.84" y="162.432" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="348.84" y="177.046" transform="rotate(-0 348.84 177.046)">2027-01</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 468.18 162.432 
+L 468.18 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke: #dce5ec; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m550418b9ce" x="468.18" y="162.432" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="468.18" y="177.046" transform="rotate(-0 468.18 177.046)">07</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 587.52 162.432 
+L 587.52 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke: #dce5ec; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m550418b9ce" x="587.52" y="162.432" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="587.52" y="177.046" transform="rotate(-0 587.52 177.046)">2028-01</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m8954fe3d57" d="M 0 0 
+L -3 0 
+" style="stroke: #5c7181; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8954fe3d57" x="110.16" y="147.351273" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="103.16" y="151.158273" transform="rotate(-0 103.16 151.158273)">D11  未来版</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m8954fe3d57" x="110.16" y="107.136" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="103.16" y="110.943" transform="rotate(-0 103.16 110.943)">D02  现行版</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m8954fe3d57" x="110.16" y="66.920727" style="fill: #5c7181; stroke: #5c7181; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.4px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5c7181" x="103.16" y="70.727727" transform="rotate(-0 103.16 70.727727)">D01  历史版</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 110.16 76.974545 
+L 289.17 76.974545 
+L 289.17 56.866909 
+L 110.16 56.866909 
+z
+" clip-path="url(#pfa16964fc6)" style="fill: #9770b7; opacity: 0.8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 289.17 117.189818 
+L 587.52 117.189818 
+L 587.52 97.082182 
+L 289.17 97.082182 
+z
+" clip-path="url(#pfa16964fc6)" style="fill: #237ca3; opacity: 0.8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 348.84 157.405091 
+L 587.52 157.405091 
+L 587.52 137.297455 
+L 348.84 137.297455 
+z
+" clip-path="url(#pfa16964fc6)" style="fill: #e5a23b; opacity: 0.8"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 318.0105 162.432 
+L 318.0105 51.84 
+" clip-path="url(#pfa16964fc6)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #cb6268; stroke-width: 1.3"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 110.16 162.432 
+L 110.16 51.84 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 110.16 162.432 
+L 587.52 162.432 
+" style="fill: none; stroke: #5c7181; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #cb6268" x="324.972" y="46.813091" transform="rotate(-0 324.972 46.813091)">查询：2026-11-14</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 119.34 299.19744 
+L 252.45 299.19744 
+Q 253.827 299.19744 253.827 296.9856 
+L 253.827 230.6304 
+Q 253.827 228.41856 252.45 228.41856 
+L 119.34 228.41856 
+Q 117.963 228.41856 117.963 230.6304 
+L 117.963 296.9856 
+Q 117.963 299.19744 119.34 299.19744 
+z
+" clip-path="url(#pde0208629f)" style="fill: #eaf7f3; stroke: #15998d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 279.99 299.19744 
+L 413.1 299.19744 
+Q 414.477 299.19744 414.477 296.9856 
+L 414.477 230.6304 
+Q 414.477 228.41856 413.1 228.41856 
+L 279.99 228.41856 
+Q 278.613 228.41856 278.613 230.6304 
+L 278.613 296.9856 
+Q 278.613 299.19744 279.99 299.19744 
+z
+" clip-path="url(#pde0208629f)" style="fill: #f2edf7; stroke: #9770b7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 440.64 299.19744 
+L 573.75 299.19744 
+Q 575.127 299.19744 575.127 296.9856 
+L 575.127 230.6304 
+Q 575.127 228.41856 573.75 228.41856 
+L 440.64 228.41856 
+Q 439.263 228.41856 439.263 230.6304 
+L 439.263 296.9856 
+Q 439.263 299.19744 440.64 299.19744 
+z
+" clip-path="url(#pde0208629f)" style="fill: #fcf4e4; stroke: #e5a23b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="124.848" y="252.7488" transform="rotate(-0 124.848 252.7488)">D02：1000 kWh</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="124.848" y="282.24" transform="rotate(-0 124.848 282.24)">对象、授权与日期匹配</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="285.498" y="252.7488" transform="rotate(-0 285.498 252.7488)">D10：BAT-B</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="285.498" y="282.24" transform="rotate(-0 285.498 282.24)">class_b 班组资料</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="446.148" y="252.7488" transform="rotate(-0 446.148 252.7488)">D12：草稿</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="446.148" y="282.24" transform="rotate(-0 446.148 282.24)">授权未开放</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="24.48" y="15.552" transform="rotate(-0 24.48 15.552)">版本与授权共同限定证据范围</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5c7181" x="24.48" y="34.56" transform="rotate(-0 24.48 34.56)">同一对象的历史值、当前值、未来值分别按查询日期解释</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfa16964fc6">
+   <rect x="110.16" y="51.84" width="477.36" height="110.592"/>
+  </clipPath>
+  <clipPath id="pde0208629f">
+   <rect x="110.16" y="226.944" width="477.36" height="73.728"/>
+  </clipPath>
+ </defs>
+</svg>

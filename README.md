@@ -136,3 +136,7 @@ node --test tests/demo.test.cjs
 [章节说明](chapters/ch07/README.md) · [交互演示](demo/ch07/教学演示.html) · [Notebook](chapters/ch07/ch07_walkthrough.ipynb)
 
 电池—超级电容共享约束环境，比较低通、单步优化与Q学习；5个训练种子、15条独立输入、4类场景，共420次评测。含8幅代码精绘彩图、独立能量核验、过载反例和跨语言逐点测试。完整保留残差、端点和训练差异。
+
+## 第9章：储能运维知识助手
+
+已加入[代码与复现说明](chapters/ch09/README.md)、[已执行Notebook](chapters/ch09/ch09_walkthrough.ipynb)及[离线交互演示](demo/ch09/教学演示.html)。16份自编资料、三种检索、出处核验与只读工具故障实验；范围与指标见章节README。

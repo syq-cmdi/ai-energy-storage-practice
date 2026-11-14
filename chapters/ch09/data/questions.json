@@ -1,0 +1,542 @@
+[
+  {
+    "id": "DEV01",
+    "split": "dev",
+    "text": "BAT-A额定储能量是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy"
+  },
+  {
+    "id": "TEST01",
+    "split": "test",
+    "text": "BAT-A：电池能装多少电？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy"
+  },
+  {
+    "id": "DEV02",
+    "split": "dev",
+    "text": "BAT-A额定交流输出功率是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "power"
+  },
+  {
+    "id": "TEST02",
+    "split": "test",
+    "text": "BAT-A：交流端最大额定出力多大？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "power"
+  },
+  {
+    "id": "DEV03",
+    "split": "dev",
+    "text": "BAT-A放电电能转换效率是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "eta"
+  },
+  {
+    "id": "TEST03",
+    "split": "test",
+    "text": "BAT-A：从内部能量到交流负荷按什么效率折算？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "eta"
+  },
+  {
+    "id": "DEV04",
+    "split": "dev",
+    "text": "BAT-ASOC下限是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "soc_min"
+  },
+  {
+    "id": "TEST04",
+    "split": "test",
+    "text": "BAT-A：调度必须保留多少荷电状态？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "soc_min"
+  },
+  {
+    "id": "DEV05",
+    "split": "dev",
+    "text": "BAT-A教学初始SOC目标是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "soc_target"
+  },
+  {
+    "id": "TEST05",
+    "split": "test",
+    "text": "BAT-A：实验开始的荷电水平设多少？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "soc_target"
+  },
+  {
+    "id": "DEV06",
+    "split": "dev",
+    "text": "BAT-A巡检记录复核周期多久",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "inspection"
+  },
+  {
+    "id": "TEST06",
+    "split": "test",
+    "text": "BAT-A：巡检记录隔几天复查？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "inspection"
+  },
+  {
+    "id": "DEV07",
+    "split": "dev",
+    "text": "BAT-A功率数据采样周期是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "sample_period"
+  },
+  {
+    "id": "TEST07",
+    "split": "test",
+    "text": "BAT-A：功率量测两点之间间隔多久？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "sample_period"
+  },
+  {
+    "id": "DEV08",
+    "split": "dev",
+    "text": "BAT-A连续有效样本数是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "valid_samples"
+  },
+  {
+    "id": "TEST08",
+    "split": "test",
+    "text": "BAT-A：缺测恢复后积累几个合格数据再统计？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "valid_samples"
+  },
+  {
+    "id": "DEV09",
+    "split": "dev",
+    "text": "BAT-A本地与UTC时区偏移是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "clock_offset"
+  },
+  {
+    "id": "TEST09",
+    "split": "test",
+    "text": "BAT-A：本地时间比世界时快几小时？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "clock_offset"
+  },
+  {
+    "id": "DEV10",
+    "split": "dev",
+    "text": "BAT-A日运行报告累计窗口多长",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "report_window"
+  },
+  {
+    "id": "TEST10",
+    "split": "test",
+    "text": "BAT-A：每天汇总多少小时的数据？",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "report_window"
+  },
+  {
+    "id": "DEV11",
+    "split": "dev",
+    "text": "THERM-A水罐有效容积是多少",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "volume"
+  },
+  {
+    "id": "TEST11",
+    "split": "test",
+    "text": "THERM-A：这个罐能容纳多少立方米的水？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "volume"
+  },
+  {
+    "id": "DEV12",
+    "split": "dev",
+    "text": "THERM-A教学水密度是多少",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "density"
+  },
+  {
+    "id": "TEST12",
+    "split": "test",
+    "text": "THERM-A：每立方米的水按多少千克折算？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "density"
+  },
+  {
+    "id": "DEV13",
+    "split": "dev",
+    "text": "THERM-A教学水比热容是多少",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "specific_heat"
+  },
+  {
+    "id": "TEST13",
+    "split": "test",
+    "text": "THERM-A：单位质量水升温一度需要多少热量？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "specific_heat"
+  },
+  {
+    "id": "DEV14",
+    "split": "dev",
+    "text": "THERM-A供水温度基准是多少",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "supply_temperature"
+  },
+  {
+    "id": "TEST14",
+    "split": "test",
+    "text": "THERM-A：水罐出水温度按哪一个基准记录？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "supply_temperature"
+  },
+  {
+    "id": "DEV15",
+    "split": "dev",
+    "text": "THERM-A回水温度基准是多少",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "return_temperature"
+  },
+  {
+    "id": "TEST15",
+    "split": "test",
+    "text": "THERM-A：回到水罐的水温基准值是多少？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "return_temperature"
+  },
+  {
+    "id": "DEV16",
+    "split": "dev",
+    "text": "THERM-A温度采样周期是多少",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "sample_period"
+  },
+  {
+    "id": "TEST16",
+    "split": "test",
+    "text": "THERM-A：温度传感记录多久更新一次？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "sample_period"
+  },
+  {
+    "id": "DEV17",
+    "split": "dev",
+    "text": "THERM-A冷量累计报表单位是什么",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy_unit"
+  },
+  {
+    "id": "TEST17",
+    "split": "test",
+    "text": "THERM-A：报表里的累计冷能量用什么计量单位？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy_unit"
+  },
+  {
+    "id": "DEV18",
+    "split": "dev",
+    "text": "THERM-A有效采样质量标志是什么",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "quality_flag"
+  },
+  {
+    "id": "TEST18",
+    "split": "test",
+    "text": "THERM-A：合格测点的质量代码怎么写？",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "quality_flag"
+  },
+  {
+    "id": "DEV19",
+    "split": "dev",
+    "text": "BAT-A在2026年8月的额定储能量是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-08-01",
+    "group": "class_a",
+    "metric": "energy"
+  },
+  {
+    "id": "DEV20",
+    "split": "dev",
+    "text": "BAT-A温度复核触发值有哪两个版本证据",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "review_temperature"
+  },
+  {
+    "id": "DEV21",
+    "split": "dev",
+    "text": "该电池质保年限有多少年",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "warranty"
+  },
+  {
+    "id": "DEV22",
+    "split": "dev",
+    "text": "这个储水罐的厂家名称",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "manufacturer"
+  },
+  {
+    "id": "DEV23",
+    "split": "dev",
+    "text": "BAT-B额定储能量",
+    "asset": "BAT-B",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy"
+  },
+  {
+    "id": "DEV24",
+    "split": "dev",
+    "text": "氢压缩机出口压力",
+    "asset": "H2-X",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "pressure"
+  },
+  {
+    "id": "TEST19",
+    "split": "test",
+    "text": "BAT-A在2026年8月的额定储能量是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-08-01",
+    "group": "class_a",
+    "metric": "energy"
+  },
+  {
+    "id": "TEST20",
+    "split": "test",
+    "text": "BAT-A温度复核触发值有哪两个版本证据",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "review_temperature"
+  },
+  {
+    "id": "TEST21",
+    "split": "test",
+    "text": "该电池质保年限有多少年",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "warranty"
+  },
+  {
+    "id": "TEST22",
+    "split": "test",
+    "text": "这个储水罐的厂家名称",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "manufacturer"
+  },
+  {
+    "id": "TEST23",
+    "split": "test",
+    "text": "BAT-B额定储能量",
+    "asset": "BAT-B",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy"
+  },
+  {
+    "id": "TEST24",
+    "split": "test",
+    "text": "氢压缩机出口压力",
+    "asset": "H2-X",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "pressure"
+  },
+  {
+    "id": "TEST25",
+    "split": "test",
+    "text": "连续供能时间采用哪个功率边界",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "runtime_boundary"
+  },
+  {
+    "id": "TEST26",
+    "split": "test",
+    "text": "效率连接哪个输入端和输出端",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "eta_boundary"
+  },
+  {
+    "id": "TEST27",
+    "split": "test",
+    "text": "SOC窗口怎样换算为可用电能",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "energy_note"
+  },
+  {
+    "id": "TEST28",
+    "split": "test",
+    "text": "原文版本用哪些字段定位",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "version_key"
+  },
+  {
+    "id": "TEST29",
+    "split": "test",
+    "text": "查询知识需要哪些结构化信息",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "query_fields"
+  },
+  {
+    "id": "TEST30",
+    "split": "test",
+    "text": "工具计算应留下哪些记录",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "record_fields"
+  },
+  {
+    "id": "TEST31",
+    "split": "test",
+    "text": "水罐储冷量计算采用什么物理范围",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "heat_boundary"
+  },
+  {
+    "id": "TEST32",
+    "split": "test",
+    "text": "温差可以用哪种单位",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "temperature_unit"
+  },
+  {
+    "id": "TEST33",
+    "split": "test",
+    "text": "冷量一天累计跨几个小时",
+    "asset": "THERM-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "report_window"
+  },
+  {
+    "id": "TEST34",
+    "split": "test",
+    "text": "截至2025年8月BAT-A交流功率是多少",
+    "asset": "BAT-A",
+    "as_of": "2025-08-01",
+    "group": "class_a",
+    "metric": "power"
+  },
+  {
+    "id": "TEST35",
+    "split": "test",
+    "text": "BAT-A两张观察卡的复核温度是否一致",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "review_temperature"
+  },
+  {
+    "id": "TEST36",
+    "split": "test",
+    "text": "BAT-A传感器精度是多少",
+    "asset": "BAT-A",
+    "as_of": "2026-11-14",
+    "group": "class_a",
+    "metric": "sensor_accuracy"
+  }
+]

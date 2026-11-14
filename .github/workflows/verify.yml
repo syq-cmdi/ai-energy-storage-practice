@@ -47,6 +47,10 @@ jobs:
       - run: python chapters/ch08/verify.py
       - run: python chapters/ch08/build_demo.py
       - run: node --test tests/ch08.test.cjs
+      - run: python chapters/ch09/run.py
+      - run: python chapters/ch09/verify.py
+      - run: python chapters/ch09/build_demo.py
+      - run: node --test tests/ch09.test.cjs
       - name: Install plotting dependencies
         if: runner.os == 'Linux'
         run: |
@@ -70,3 +74,4 @@ jobs:
           python chapters/ch07/draw_diagrams.py
           python chapters/ch08/plot_results.py
           python chapters/ch08/draw_diagrams.py
+          python chapters/ch09/plot_results.py
