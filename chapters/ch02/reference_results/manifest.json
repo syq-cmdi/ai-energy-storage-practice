@@ -4,7 +4,7 @@
   "numpy": "2.3.5",
   "sklearn": "1.6.1",
   "inputs": {
-    "run.py": "d596a0ed136e5a831dec7eec25ae139b86771feb595dacc62f4dd82bbb61ab6e",
+    "run.py": "afbe6339a821f3a3f0b1ef1ab3fe08028729ba856b6d1900ec52187e495346a1",
     "config.json": "4e46148ab28b183c917d4c145356b3d39227661ff144b0cacb29982f74102ec6"
   },
   "outputs": {
@@ -13,5 +13,7 @@
     "predictions.csv": "1d75c005a788c4b1cb7d5d7caa656177686a98a0057304f64fd0d5ed9b9e9147",
     "soc.csv": "4b00fc8bc2400a113948296abeb58de00f7f5a4e365eb1c7794615e9d5d888dc"
   },
-  "distribution_note": "Model binaries are generated locally by run.py; not distributed in this source repository."
+  "distribution_note": "Model binaries are generated locally by run.py; not distributed in this source repository.",
+  "review_note": "Input contract strengthened; the four distributed result files were regenerated and match the prior snapshot byte for byte.",
+  "previous_run_sha256": "d596a0ed136e5a831dec7eec25ae139b86771feb595dacc62f4dd82bbb61ab6e"
 }
