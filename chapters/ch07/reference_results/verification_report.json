@@ -1,0 +1,81 @@
+{
+  "nominal_usable_sc_kwh": 1.2000000000000002,
+  "optimizer_random_cases": 165,
+  "max_optimizer_cost_gap": 1.1102230246251565e-15,
+  "nominal/lowpass": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": 1.0630385460785874e-14,
+    "conversion_loss_kwh": 0.2054098457508555,
+    "ramp_violations": 0
+  },
+  "nominal/optimizer": {
+    "max_state_balance_kwh": 1.1102230246251565e-16,
+    "total_balance_kwh": 2.8255175976710234e-14,
+    "conversion_loss_kwh": 0.1936891135857966,
+    "ramp_violations": 0
+  },
+  "nominal/qlearning": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": 3.042011087472929e-14,
+    "conversion_loss_kwh": 0.2988919626653541,
+    "ramp_violations": 0
+  },
+  "low_energy/lowpass": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": -2.731148640577885e-14,
+    "conversion_loss_kwh": 0.2290824405255648,
+    "ramp_violations": 0
+  },
+  "low_energy/optimizer": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": -2.7755575615628914e-15,
+    "conversion_loss_kwh": 0.21523295314708402,
+    "ramp_violations": 0
+  },
+  "low_energy/qlearning": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": 5.057065877167588e-14,
+    "conversion_loss_kwh": 0.2726675768350067,
+    "ramp_violations": 0
+  },
+  "derated/lowpass": {
+    "max_state_balance_kwh": 1.1102230246251565e-16,
+    "total_balance_kwh": 2.09277040141842e-14,
+    "conversion_loss_kwh": 0.20802525733338267,
+    "ramp_violations": 0
+  },
+  "derated/optimizer": {
+    "max_state_balance_kwh": 5.551115123125783e-17,
+    "total_balance_kwh": 1.0852430065710905e-14,
+    "conversion_loss_kwh": 0.2086129701736347,
+    "ramp_violations": 0
+  },
+  "derated/qlearning": {
+    "max_state_balance_kwh": 5.551115123125783e-17,
+    "total_balance_kwh": -3.7136960173711486e-14,
+    "conversion_loss_kwh": 0.295079504691467,
+    "ramp_violations": 0
+  },
+  "overload/lowpass": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": -1.73749903353837e-14,
+    "conversion_loss_kwh": 0.26851180996856766,
+    "ramp_violations": 0
+  },
+  "overload/optimizer": {
+    "max_state_balance_kwh": 0.0,
+    "total_balance_kwh": -3.314015728506092e-14,
+    "conversion_loss_kwh": 0.22498409165861805,
+    "ramp_violations": 0
+  },
+  "overload/qlearning": {
+    "max_state_balance_kwh": 4.440892098500626e-16,
+    "total_balance_kwh": 1.3394840792102514e-13,
+    "conversion_loss_kwh": 0.3330651498336706,
+    "ramp_violations": 0
+  },
+  "500kW_residual_kw": 390.0,
+  "ramp_energy_conflict_detected": true,
+  "evaluations": 420,
+  "status": "PASS"
+}

@@ -1,0 +1,66 @@
+{
+  "selected_seed": 11,
+  "config": {
+    "dt": 1.0,
+    "battery_kwh": 40.0,
+    "battery_min": 8.0,
+    "battery_max": 32.0,
+    "battery_initial": 20.0,
+    "battery_kw": 80.0,
+    "battery_eta": 0.96,
+    "ramp_kw_s": 10.0,
+    "capacitance_f": 450.0,
+    "voltage_min": 80.0,
+    "voltage_max": 160.0,
+    "sc_kw": 100.0,
+    "sc_eta": 0.98,
+    "sc_fraction": 0.5,
+    "tau_s": 15.0,
+    "restore_kw": 50.0,
+    "w_b": 0.25,
+    "w_ramp": 0.1,
+    "w_sc": 8.0,
+    "w_residual": 100.0
+  },
+  "evaluations": 420,
+  "training_episodes": 250,
+  "training_horizon": 300,
+  "evaluation_horizon": 600,
+  "selection": [
+    {
+      "training_seed": 11,
+      "selected_episode": 175,
+      "validation_cost": 0.30816093359860747,
+      "visited_state_actions": 3643,
+      "total_state_actions": 5103
+    },
+    {
+      "training_seed": 22,
+      "selected_episode": 100,
+      "validation_cost": 0.46180052419116935,
+      "visited_state_actions": 3640,
+      "total_state_actions": 5103
+    },
+    {
+      "training_seed": 33,
+      "selected_episode": 175,
+      "validation_cost": 0.5981999634364429,
+      "visited_state_actions": 3587,
+      "total_state_actions": 5103
+    },
+    {
+      "training_seed": 44,
+      "selected_episode": 75,
+      "validation_cost": 0.5662291342529988,
+      "visited_state_actions": 3651,
+      "total_state_actions": 5103
+    },
+    {
+      "training_seed": 55,
+      "selected_episode": 175,
+      "validation_cost": 0.8314350553322016,
+      "visited_state_actions": 3591,
+      "total_state_actions": 5103
+    }
+  ]
+}

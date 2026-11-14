@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="367.2pt" viewBox="0 0 576 367.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T12:25:03.042910</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 367.2 
+L 576 367.2 
+L 576 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 30.27456 107.66304 
+L 150.47424 107.66304 
+Q 156.97152 107.66304 156.97152 100.75968 
+L 156.97152 42.08112 
+Q 156.97152 35.17776 150.47424 35.17776 
+L 30.27456 35.17776 
+Q 23.77728 35.17776 23.77728 42.08112 
+L 23.77728 100.75968 
+Q 23.77728 107.66304 30.27456 107.66304 
+z
+" clip-path="url(#pf60709cdb1)" style="fill: #ffffff; stroke: #2471a3; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 198.12096 107.66304 
+L 334.56384 107.66304 
+Q 341.06112 107.66304 341.06112 100.75968 
+L 341.06112 42.08112 
+Q 341.06112 35.17776 334.56384 35.17776 
+L 198.12096 35.17776 
+Q 191.62368 35.17776 191.62368 42.08112 
+L 191.62368 100.75968 
+Q 191.62368 107.66304 198.12096 107.66304 
+z
+" clip-path="url(#pf60709cdb1)" style="fill: #ffffff; stroke: #2471a3; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 382.21056 107.66304 
+L 540.31104 107.66304 
+Q 546.80832 107.66304 546.80832 100.75968 
+L 546.80832 42.08112 
+Q 546.80832 35.17776 540.31104 35.17776 
+L 382.21056 35.17776 
+Q 375.71328 35.17776 375.71328 42.08112 
+L 375.71328 100.75968 
+Q 375.71328 107.66304 382.21056 107.66304 
+z
+" clip-path="url(#pf60709cdb1)" style="fill: #ffffff; stroke: #d18429; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 73.58976 231.34824 
+L 231.69024 231.34824 
+Q 238.18752 231.34824 238.18752 224.44488 
+L 238.18752 162.88992 
+Q 238.18752 155.98656 231.69024 155.98656 
+L 73.58976 155.98656 
+Q 67.09248 155.98656 67.09248 162.88992 
+L 67.09248 224.44488 
+Q 67.09248 231.34824 73.58976 231.34824 
+z
+" clip-path="url(#pf60709cdb1)" style="fill: #ffffff; stroke: #2471a3; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 344.30976 231.34824 
+L 502.41024 231.34824 
+Q 508.90752 231.34824 508.90752 224.44488 
+L 508.90752 162.88992 
+Q 508.90752 155.98656 502.41024 155.98656 
+L 344.30976 155.98656 
+Q 337.81248 155.98656 337.81248 162.88992 
+L 337.81248 224.44488 
+Q 337.81248 231.34824 344.30976 231.34824 
+z
+" clip-path="url(#pf60709cdb1)" style="fill: #ffffff; stroke: #15958b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 171.04896 352.15704 
+L 404.95104 352.15704 
+Q 411.44832 352.15704 411.44832 345.25368 
+L 411.44832 292.32792 
+Q 411.44832 285.42456 404.95104 285.42456 
+L 171.04896 285.42456 
+Q 164.55168 285.42456 164.55168 292.32792 
+L 164.55168 345.25368 
+Q 164.55168 352.15704 171.04896 352.15704 
+z
+" clip-path="url(#pf60709cdb1)" style="fill: #ffffff; stroke: #183448; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 390.8736 126.072 
+L 152.64 126.072 
+" clip-path="url(#pf60709cdb1)" style="fill: none; stroke: #2471a3; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 390.8736 108.8136 
+L 390.8736 126.072 
+" clip-path="url(#pf60709cdb1)" style="fill: none; stroke: #2471a3; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 152.64 261.2628 
+L 423.36 261.2628 
+" clip-path="url(#pf60709cdb1)" style="fill: none; stroke: #183448; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2471a3" x="90.3744" y="65.019144" transform="rotate(-0 90.3744 65.019144)">当前观测</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="90.3744" y="89.021625" transform="rotate(-0 90.3744 89.021625)">需求 · 能量 · 上次功率</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2471a3" x="266.3424" y="65.019144" transform="rotate(-0 266.3424 65.019144)">三个候选控制器</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="266.3424" y="89.143265" transform="rotate(-0 266.3424 89.143265)">低通 / 优化 / Q学习</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d18429" x="461.2608" y="65.019144" transform="rotate(-0 461.2608 65.019144)">共同约束投影</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="461.2608" y="89.021625" transform="rotate(-0 461.2608 89.021625)">额定功率 · 库存 · 爬坡</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 160.057041 71.4204 
+Q 174.299788 71.4204 186.977288 71.4204 
+" style="fill: none; stroke: #183448; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 181.777288 68.8204 
+L 186.977288 71.4204 
+L 181.777288 74.0204 
+z
+" style="fill: #183448; stroke: #183448; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 344.146641 71.4204 
+Q 358.389388 71.4204 371.066888 71.4204 
+" style="fill: none; stroke: #183448; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 365.866888 68.8204 
+L 371.066888 71.4204 
+L 365.866888 74.0204 
+z
+" style="fill: #183448; stroke: #183448; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2471a3" x="152.64" y="186.80592" transform="rotate(-0 152.64 186.80592)">电池支路</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="152.64" y="211.930197" transform="rotate(-0 152.64 211.930197)">较大能量容量 · 平缓输出</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #15958b" x="423.36" y="186.80592" transform="rotate(-0 423.36 186.80592)">超级电容支路</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="423.36" y="211.9534" transform="rotate(-0 423.36 211.9534)">电压平方储能 · 快速响应</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 423.36 110.816406 
+Q 423.36 131.825391 423.36 151.269129 
+" style="fill: none; stroke: #15958b; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 425.96 146.069129 
+L 423.36 151.269129 
+L 420.76 146.069129 
+z
+" style="fill: #15958b; stroke: #15958b; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 152.64 128.06989 
+Q 152.64 140.451503 152.64 151.267868 
+" style="fill: none; stroke: #2471a3; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 155.24 146.067868 
+L 152.64 151.267868 
+L 150.04 146.067868 
+z
+" style="fill: #2471a3; stroke: #2471a3; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 152.64 234.49669 
+Q 152.64 246.878303 152.64 257.694668 
+" style="fill: none; stroke: #2471a3; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 155.24 252.494668 
+L 152.64 257.694668 
+L 150.04 252.494668 
+z
+" style="fill: #2471a3; stroke: #2471a3; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 423.36 234.49669 
+Q 423.36 246.878303 423.36 257.694668 
+" style="fill: none; stroke: #15958b; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 425.96 252.494668 
+L 423.36 257.694668 
+L 420.76 252.494668 
+z
+" style="fill: #15958b; stroke: #15958b; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="288" y="249.7572" transform="rotate(-0 288 249.7572)">共同直流母线：电池功率 + 电容功率 + 残差 = 需求</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #183448" x="288" y="313.309992" transform="rotate(-0 288 313.309992)">逐时账本与独立评测</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5c7181" x="288" y="335.068881" transform="rotate(-0 288 335.068881)">跟踪 · 吞吐量 · 能量端点 · 约束事件</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 288 263.265606 
+Q 288 272.77093 288 280.711006 
+" style="fill: none; stroke: #183448; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 290.6 275.511006 
+L 288 280.711006 
+L 285.4 275.511006 
+z
+" style="fill: #183448; stroke: #183448; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Heiti TC', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #183448" x="30.816" y="19.6452" transform="rotate(-0 30.816 19.6452)">同一信息边界，同一物理环境</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf60709cdb1">
+   <rect x="17.28" y="11.016" width="541.44" height="345.168"/>
+  </clipPath>
+ </defs>
+</svg>
