@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "sklearn": "1.6.1",
+  "seed": 20261114,
+  "inputs": {
+    "run.py": "49675cdfa9de0dc18d1a6e052e4e42c3b9400d82e2361c9123e0f1ebaca3ab49",
+    "config.json": "b0b35db2661f09834c603aaff8baef354cf3d4f0218d29c98534c5575c508e73"
+  },
+  "outputs": {
+    "metrics.json": "a261b8810009a73f82bad72c1cd6dfc13a59ea7bffce79a2a761411ca99b9f19",
+    "threshold_candidates.json": "22bb0fee2c6702474d260293850a381e0767108cf380da7a3a6ccbd23bf047cd",
+    "test_scores.csv": "0490a2a1f090e359a4abb46804820482384425ed592e47d140536cfc79a32fae",
+    "events.csv": "8c20ce4c247a81af9e7d374686709c571d70972bfc114b093630a7db61ee9d8b",
+    "event_results.csv": "44a9d6685a34b9616ed8d97f30d73ca5dfebc30a072b2a7c9f00e4ebbe4aef99"
+  },
+  "distribution_note": "Reference subset: test scores and evaluation ledgers. Full observations, training predictions and models are generated locally by run.py."
+}

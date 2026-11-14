@@ -1,0 +1,343 @@
+{
+  "data_origin": "author_constructed_fault_injection",
+  "counts": {
+    "train": 8640,
+    "validation": 4320,
+    "test": 5040
+  },
+  "train_n": 8256,
+  "normal_train_n": 4032,
+  "selected": {
+    "rule": {
+      "threshold": 4,
+      "persistence": 1,
+      "budget_met": true
+    },
+    "logistic": {
+      "threshold": 0.7,
+      "persistence": 1,
+      "budget_met": true
+    },
+    "isolation": {
+      "threshold": 0.68,
+      "persistence": 5,
+      "budget_met": true
+    }
+  },
+  "metrics": {
+    "rule": {
+      "validation": {
+        "events": 12,
+        "detected": 12,
+        "missed": 0,
+        "event_recall": 1.0,
+        "false_alarm_episodes": 3,
+        "normal_valid_hours": 54.8,
+        "false_alarms_per_hour": 0.05474452554744526,
+        "delay_mean_min": 4.166666666666667,
+        "delay_max_min": 6,
+        "fragments": 0,
+        "valid_fraction": 0.9555555555555556,
+        "point_counts": {
+          "tp": 790,
+          "fp": 48,
+          "fn": 50,
+          "tn": 3240
+        },
+        "point_precision": 0.9427207637231504,
+        "point_recall": 0.9404761904761905
+      },
+      "test": {
+        "events": 16,
+        "detected": 16,
+        "missed": 0,
+        "event_recall": 1.0,
+        "false_alarm_episodes": 28,
+        "normal_valid_hours": 61.86666666666667,
+        "false_alarms_per_hour": 0.4525862068965517,
+        "delay_mean_min": 5.75,
+        "delay_max_min": 32,
+        "fragments": 0,
+        "valid_fraction": 0.9523809523809523,
+        "point_counts": {
+          "tp": 1029,
+          "fp": 141,
+          "fn": 59,
+          "tn": 3571
+        },
+        "point_precision": 0.8794871794871795,
+        "point_recall": 0.9457720588235294
+      }
+    },
+    "logistic": {
+      "validation": {
+        "events": 12,
+        "detected": 12,
+        "missed": 0,
+        "event_recall": 1.0,
+        "false_alarm_episodes": 1,
+        "normal_valid_hours": 54.8,
+        "false_alarms_per_hour": 0.018248175182481754,
+        "delay_mean_min": 3.6666666666666665,
+        "delay_max_min": 6,
+        "fragments": 0,
+        "valid_fraction": 0.9555555555555556,
+        "point_counts": {
+          "tp": 796,
+          "fp": 30,
+          "fn": 44,
+          "tn": 3258
+        },
+        "point_precision": 0.9636803874092009,
+        "point_recall": 0.9476190476190476
+      },
+      "test": {
+        "events": 16,
+        "detected": 16,
+        "missed": 0,
+        "event_recall": 1.0,
+        "false_alarm_episodes": 3,
+        "normal_valid_hours": 61.86666666666667,
+        "false_alarms_per_hour": 0.04849137931034483,
+        "delay_mean_min": 5.6875,
+        "delay_max_min": 32,
+        "fragments": 0,
+        "valid_fraction": 0.9523809523809523,
+        "point_counts": {
+          "tp": 1029,
+          "fp": 38,
+          "fn": 59,
+          "tn": 3674
+        },
+        "point_precision": 0.9643861293345829,
+        "point_recall": 0.9457720588235294
+      }
+    },
+    "isolation": {
+      "validation": {
+        "events": 12,
+        "detected": 0,
+        "missed": 12,
+        "event_recall": 0.0,
+        "false_alarm_episodes": 0,
+        "normal_valid_hours": 54.8,
+        "false_alarms_per_hour": 0.0,
+        "delay_mean_min": null,
+        "delay_max_min": null,
+        "fragments": 0,
+        "valid_fraction": 0.9555555555555556,
+        "point_counts": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 840,
+          "tn": 3288
+        },
+        "point_precision": null,
+        "point_recall": 0.0
+      },
+      "test": {
+        "events": 16,
+        "detected": 4,
+        "missed": 12,
+        "event_recall": 0.25,
+        "false_alarm_episodes": 0,
+        "normal_valid_hours": 61.86666666666667,
+        "false_alarms_per_hour": 0.0,
+        "delay_mean_min": 7.5,
+        "delay_max_min": 8,
+        "fragments": 0,
+        "valid_fraction": 0.9523809523809523,
+        "point_counts": {
+          "tp": 59,
+          "fp": 0,
+          "fn": 1029,
+          "tn": 3712
+        },
+        "point_precision": 1.0,
+        "point_recall": 0.05422794117647059
+      }
+    }
+  },
+  "confusion_labels": [
+    "normal",
+    "voltage_bias",
+    "resistance_rise",
+    "cooling_loss"
+  ],
+  "confusion_matrix": [
+    [
+      3234,
+      34,
+      8,
+      12
+    ],
+    [
+      12,
+      268,
+      0,
+      0
+    ],
+    [
+      19,
+      2,
+      259,
+      0
+    ],
+    [
+      6,
+      1,
+      0,
+      241
+    ]
+  ],
+  "diagnostic_evidence": [
+    {
+      "event_id": "D13_voltage_bias_E1",
+      "kind": "voltage_bias",
+      "onset_min": 62,
+      "diagnosis": "unknown",
+      "class_prediction": "voltage_bias",
+      "confidence": 0.8611462875056477,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D13_resistance_rise_E1",
+      "kind": "resistance_rise",
+      "onset_min": 66,
+      "diagnosis": "resistance_rise",
+      "class_prediction": "resistance_rise",
+      "confidence": 0.9340914029131872,
+      "next_check": "verify_resistance_rise"
+    },
+    {
+      "event_id": "D13_cooling_loss_E1",
+      "kind": "cooling_loss",
+      "onset_min": 62,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.8265201375645226,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D13_novel_dual_E1",
+      "kind": "novel_dual",
+      "onset_min": 64,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.6364507358572595,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D14_voltage_bias_E1",
+      "kind": "voltage_bias",
+      "onset_min": 66,
+      "diagnosis": "unknown",
+      "class_prediction": "voltage_bias",
+      "confidence": 0.8071681741769609,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D14_resistance_rise_E1",
+      "kind": "resistance_rise",
+      "onset_min": 65,
+      "diagnosis": "unknown",
+      "class_prediction": "resistance_rise",
+      "confidence": 0.9509424304174996,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D14_cooling_loss_E1",
+      "kind": "cooling_loss",
+      "onset_min": 63,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.9776533847757951,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D14_novel_dual_E1",
+      "kind": "novel_dual",
+      "onset_min": 61,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.7329684485897824,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D15_voltage_bias_E1",
+      "kind": "voltage_bias",
+      "onset_min": 64,
+      "diagnosis": "unknown",
+      "class_prediction": "voltage_bias",
+      "confidence": 0.8764714294943655,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D15_resistance_rise_E1",
+      "kind": "resistance_rise",
+      "onset_min": 66,
+      "diagnosis": "unknown",
+      "class_prediction": "resistance_rise",
+      "confidence": 0.7949544077626622,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D15_cooling_loss_E1",
+      "kind": "cooling_loss",
+      "onset_min": 63,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.9868265702800469,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D15_novel_dual_E1",
+      "kind": "novel_dual",
+      "onset_min": 64,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.972039882003984,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D16_voltage_bias_E1",
+      "kind": "voltage_bias",
+      "onset_min": 64,
+      "diagnosis": "unknown",
+      "class_prediction": "voltage_bias",
+      "confidence": 0.7863131319326034,
+      "next_check": "independent_voltage_and_temperature_check"
+    },
+    {
+      "event_id": "D16_resistance_rise_E1",
+      "kind": "resistance_rise",
+      "onset_min": 67,
+      "diagnosis": "resistance_rise",
+      "class_prediction": "resistance_rise",
+      "confidence": 0.9522414331951512,
+      "next_check": "verify_resistance_rise"
+    },
+    {
+      "event_id": "D16_cooling_loss_E1",
+      "kind": "cooling_loss",
+      "onset_min": 92,
+      "diagnosis": "cooling_loss",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.9987841930909833,
+      "next_check": "verify_cooling_loss"
+    },
+    {
+      "event_id": "D16_novel_dual_E1",
+      "kind": "novel_dual",
+      "onset_min": 62,
+      "diagnosis": "unknown",
+      "class_prediction": "cooling_loss",
+      "confidence": 0.9281933227012656,
+      "next_check": "independent_voltage_and_temperature_check"
+    }
+  ],
+  "training_warnings": [],
+  "evaluation_protocol": "new onset inside [start,end), no point adjustment; rate denominator valid non-event hours",
+  "diagnostic_status": "hypothesis_only",
+  "reload_max_abs": 0.0
+}

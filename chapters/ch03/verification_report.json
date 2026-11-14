@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "checks_passed": 42,
+  "checks": [
+    {
+      "check": "18000 constructed observations",
+      "passed": true
+    },
+    {
+      "check": "52 independent injection events",
+      "passed": true
+    },
+    {
+      "check": "devices disjoint",
+      "passed": true
+    },
+    {
+      "check": "novel dual injection excluded from train and selection",
+      "passed": true
+    },
+    {
+      "check": "labels obey half-open event bounds",
+      "passed": true
+    },
+    {
+      "check": "duplicate timestamp",
+      "passed": true
+    },
+    {
+      "check": "NaN signal",
+      "passed": true
+    },
+    {
+      "check": "SOC outside range",
+      "passed": true
+    },
+    {
+      "check": "device split mismatch",
+      "passed": true
+    },
+    {
+      "check": "future perturbation leaves history unchanged",
+      "passed": true
+    },
+    {
+      "check": "labels and scenario not used as numeric features",
+      "passed": true
+    },
+    {
+      "check": "missing samples and four recovery samples unavailable",
+      "passed": true
+    },
+    {
+      "check": "fifth complete recovery sample valid",
+      "passed": true
+    },
+    {
+      "check": "persistence and release timeline",
+      "passed": true
+    },
+    {
+      "check": "missing value resets consecutive count",
+      "passed": true
+    },
+    {
+      "check": "invalid persistence",
+      "passed": true
+    },
+    {
+      "check": "event recall independently 1/2",
+      "passed": true
+    },
+    {
+      "check": "one detected-event delay is 1 min",
+      "passed": true
+    },
+    {
+      "check": "background exposure 7 min and 2 false episodes",
+      "passed": true
+    },
+    {
+      "check": "point counts not adjusted by event hit",
+      "passed": true
+    },
+    {
+      "check": "existing pre-onset alarm does not detect event",
+      "passed": true
+    },
+    {
+      "check": "unavailable event is retained as missed",
+      "passed": true
+    },
+    {
+      "check": "multiple physical signatures stay unknown",
+      "passed": true
+    },
+    {
+      "check": "single agreeing signature yields hypothesis",
+      "passed": true
+    },
+    {
+      "check": "low model score stays unknown",
+      "passed": true
+    },
+    {
+      "check": "unavailable is distinct from normal",
+      "passed": true
+    },
+    {
+      "check": "nonempty output protected",
+      "passed": true
+    },
+    {
+      "check": "exact saved-model reload",
+      "passed": true
+    },
+    {
+      "check": "scaler only fit on training rows",
+      "passed": true
+    },
+    {
+      "check": "isolation model trained only on healthy training rows",
+      "passed": true
+    },
+    {
+      "check": "test signals and labels cannot change selection",
+      "passed": true
+    },
+    {
+      "check": "rule independent event ledger",
+      "passed": true
+    },
+    {
+      "check": "rule independent false-alarm rate",
+      "passed": true
+    },
+    {
+      "check": "rule independent detected-event delay",
+      "passed": true
+    },
+    {
+      "check": "logistic independent event ledger",
+      "passed": true
+    },
+    {
+      "check": "logistic independent false-alarm rate",
+      "passed": true
+    },
+    {
+      "check": "logistic independent detected-event delay",
+      "passed": true
+    },
+    {
+      "check": "isolation independent event ledger",
+      "passed": true
+    },
+    {
+      "check": "isolation independent false-alarm rate",
+      "passed": true
+    },
+    {
+      "check": "isolation independent detected-event delay",
+      "passed": true
+    },
+    {
+      "check": "known-class confusion matrix count",
+      "passed": true
+    },
+    {
+      "check": "all declared hashes agree",
+      "passed": true
+    }
+  ]
+}
