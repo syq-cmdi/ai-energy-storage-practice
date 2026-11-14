@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>W-H1 储热动态实验室</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="brand">储能系统人工智能实践 <span>CHAPTER 04</span></div><h1>W-H1 储热动态实验室</h1><p>改变参数与观测条件，观察热惯性、状态估计和能量偏差怎样变化。</p><div class="pill">构造数据 · 本地计算 · 可离线使用</div></header>
+<main><aside aria-label="实验控制面板">
+<h2>01　选择工况</h2><label for="scenario">独立测试轨迹</label><select id="scenario"><option value="test_nominal">常规工况 · 12 h</option><option value="test_loss" selected>附加散热 · 18 h</option><option value="test_bias">传感器偏移 · 18 h</option><option value="test_hot">高温外推 · 18 h</option></select>
+<p id="scenarioNote" class="hint"></p>
+<h2>02　选择预测模型</h2><label for="model">模型结构</label><select id="model"><option value="gray" selected>灰箱模型 + EKF</option><option value="physical">机理模型 + KF</option></select>
+<div class="control"><label for="capacity">热容量 C <output id="capacityVal"></output></label><input id="capacity" type="range" min="250" max="650" step="1" value="418"></div>
+<div class="control"><label for="ua">散热系数 UA <output id="uaVal"></output></label><input id="ua" type="range" min="2" max="30" step="0.1" value="10"></div>
+<button id="calibrate" class="secondary">载入离线辨识参数</button><p class="hint">C、UA 来自两条校准轨迹；β 来自另外两条残差训练轨迹。</p>
+<h2>03　改变测量与滤波</h2>
+<div class="control"><label for="noise">观测噪声标准差 <output id="noiseVal"></output></label><input id="noise" type="range" min="0.05" max="1" step="0.05" value="0.25"></div>
+<div class="control"><label for="bias">6 h 后传感器偏移 <output id="biasVal"></output></label><input id="bias" type="range" min="-2" max="2" step="0.1" value="0"></div>
+<label for="q">每步过程方差 Q / K²</label><select id="q"><option value="0">0 · 理想确定性模型</option><option value="0.000001">0.000001</option><option value="0.00001">0.00001</option><option value="0.0001">0.0001</option><option value="0.001">0.001</option><option value="0.01">0.01 · 更信任新观测</option></select>
+<p class="hint">演示中 R = 所选噪声标准差的平方。采样间隔固定为 120 s；Q 随工况选择，不能直接移用到其他采样周期。</p>
+<button id="reset">恢复书稿设置</button>
+</aside><section class="workspace" aria-label="动态结果">
+<div class="toolbar"><div><h2 id="caseTitle">附加散热工况</h2><p id="modelInfo"></p></div><label class="checkbox"><input type="checkbox" id="truth" checked> 显示参考温度</label></div>
+<div class="metrics" aria-live="polite"><div><span>开环温度 RMSE</span><strong id="rmseOpen"></strong><small>完整轨迹 · 20 min 后</small></div><div><span>状态估计 RMSE</span><strong id="rmseEst"></strong><small>完整轨迹 · 20 min 后</small></div><div><span>内部区间覆盖率</span><strong id="coverage"></strong><small>±1.96σ · 条件模型区间</small></div></div>
+<div class="chartwrap"><div class="charttitle"><h3>温度轨迹</h3><div class="legend"><span class="dot navy">参考</span><span class="dot amber">观测</span><span class="dot blue">开环</span><span class="dot teal">估计</span></div></div><svg id="temperatureChart" viewBox="0 0 900 360" role="img" aria-label="温度观测 开环预测 状态估计曲线"></svg></div>
+<div class="playback"><button id="play">播放状态更新</button><label for="time">回放时刻 <output id="timeVal"></output></label><input id="time" type="range" min="1" max="540" value="180" step="1"></div>
+<div class="updatepanel"><div class="tank"><svg viewBox="0 0 120 140" aria-label="充分混合水罐图示" role="img"><rect x="24" y="15" width="72" height="112" rx="15" fill="#eef3f6" stroke="#183448" stroke-width="2"/><rect x="31" y="33" width="58" height="80" rx="9" fill="#f5d99b"/><path d="M59 7V94 M43 61L75 67 M43 79L75 85" stroke="#087f8c" stroke-width="3"/><path d="M36 107q6 -10 12 0t12 0t12 0t12 0" fill="none" stroke="#bb4d4d" stroke-width="3"/></svg><strong id="tankTemp"></strong></div><div class="step"><span>模型预测</span><strong id="prior"></strong><small>上一估计 → 本步先验</small></div><div class="step"><span>观测创新</span><strong id="innovation"></strong><small id="gain"></small></div><div class="step"><span>更新后估计</span><strong id="posterior"></strong><small id="uncertainty"></small></div></div>
+<div class="lower"><div class="chartwrap"><h3>估计误差与内部区间</h3><svg id="errorChart" viewBox="0 0 440 250" role="img" aria-label="状态估计误差和不确定性区间"></svg></div><div class="chartwrap"><h3>开环累计能量偏差</h3><svg id="energyChart" viewBox="0 0 440 250" role="img" aria-label="开环储能变化与独立参考热流累计差值"></svg></div></div>
+<div class="lesson"><h3 id="lessonTitle">观察任务</h3><p id="lesson"></p><p>开环曲线只在起点使用一次观测；滤波曲线逐步接收观测。能量核对使用开环曲线，观测校正量单独保留在状态更新中。</p></div>
+<div class="exports"><button class="secondary" id="exportCsv">导出当前数据 CSV</button><button class="secondary" id="exportSvg">导出温度图 SVG</button><span id="status" role="status"></span></div>
+</section></main><footer>第4章配套实验 · 参考轨迹由独立 DOP853 求解，所有数据按明示方程构造。参数学习只使用开发轨迹。浏览器中的更改为教学探索，不重新定义书稿测试结果。</footer>
+<script src="data.js"></script><script src="math.js"></script><script src="app.js"></script></body></html>

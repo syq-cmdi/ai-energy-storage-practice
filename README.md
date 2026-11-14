@@ -1,4 +1,12 @@
-# AI储能实践 · 状态估计与异常诊断
+# AI储能实践 · 电池与热储能
+
+## 第4章新增：储热动态辨识与状态估计
+
+[代码与复现说明](chapters/ch04/README.md) · [离线交互演示](demo/ch04/教学演示.html) · [Notebook](chapters/ch04/ch04_walkthrough.ipynb) · [课堂讲义](docs/ch04/课堂讲义.md)
+
+W-H1水罐的机理校准、可辨识性、功率残差学习、KF/EKF及四种独立工况验证。7幅精细代码彩图，支持热容量、散热、噪声与偏移交互、时间回放及CSV/SVG导出。全部数据由方程构造。
+
+![第四章参数辨识](assets/ch04/fig4_5_parameter_fit.png)
 
 ## 第3章新增：异常检测与故障诊断
 
